@@ -1,38 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-
-<!DOCTYPE TEI.2
-PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
-<!ENTITY % TEI.XML "INCLUDE">
-<!ENTITY % TEI.dictionaries 'INCLUDE'>
-<!ENTITY % TEI.figures 'INCLUDE'>
-
-<!ENTITY % PersTeiHead PUBLIC "-//Perseus//DTD Perseus TEI header//EN" "http://static.perseus.tufts.edu/DTD/1.0/PersTeiHead.dtd">
-%PersTeiHead;
-
-<!ENTITY % ISOlat1 PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN" "http://www.w3.org/MarkUp/DTD/xhtml-lat1.ent"> 
-%ISOlat1; 
-
-<!ENTITY % ISOlat2 PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN" "http://text.lib.virginia.edu/charent/iso-lat2.ent">
-%ISOlat2; 
-
-<!ENTITY % ISOnum  
-  PUBLIC   "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN" "http://text.lib.virginia.edu/charent/iso-num.ent">
-  %ISOnum;
-
-<!ENTITY % ISOpub  PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN" "http://text.lib.virginia.edu/charent/iso-pub.ent">
-%ISOpub; 
-
-<!ENTITY   %   ISOtech   PUBLIC   "ISO   8879-1986//ENTITIES   General Technical//EN" "http://text.lib.virginia.edu/charent/iso-tech.ent">
-%ISOtech;
-<!ENTITY % PersProse PUBLIC "-//Perseus P4//DTD Perseus Prose//EN" "http://static.perseus.tufts.edu/DTD/1.0/PersProse.dtd" >
-%PersProse;
-]>
-<TEI.2>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
 <text>
 <body>
-  <div1>
-    <div2>
+  <div>
       <p>
 
 ﻿<lb/>ADDENDA ET CORRIGENDA.
@@ -60,7 +29,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>the second equivalent (if any) is from Elementary Arabic: First
 <lb/>reading book; being easier for beginners, as Dr Wright discards
 <lb/>digraphs, i. e. two letters for the representation of one sound.
-<pb n="3" TEIform="pb"/>
+<pb n="3"/>
 <lb/>REM. a. أfollowing ل forms لاlâm' alif which is sometimes
 <lb/>reckoned as a letter.
 <lb/>REM. e.  ي و أ are called  حُرُوفُ الْعِلَّةِthe weak letters.
@@ -82,25 +51,25 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>led aright almost mahĭdîy, and  وَجْهwajh face like wajhĭ.
 <lb/>t d sharper than in English, and with the tongue's tip, to
 <lb/>distinguish them from
-<lb/>&#x020DB; &ddot; pronounced with broad of tongue, the tip being held against
+<lb/>⃛ [ddot] pronounced with broad of tongue, the tip being held against
 <lb/>the lower teeth.
 <lb/>* A Turkish 'imâm will pronounce certain letters as in Turkish; thus
 <lb/>kyâmil for  كَامِلkâmil one who is perfect.
-<pb n="4" TEIform="pb"/>
+<pb n="4"/>
 <lb/>th as in thorn, thump; but th as in goatherd, lighthouse.
 <lb/>j is pronounced (i) ĵ as in John Jim Jack at al Azhar (the
 <lb/>famous Cairo University), but (ii) at the mosques of
-<lb/>Damascus, Tunis and Algiers &jcaron; as s in usual, measure,
+<lb/>Damascus, Tunis and Algiers [jcaron] as s in usual, measure,
 <lb/>vision,and as z in azure, and j in adjoin, adjective, adjacent,
 <lb/>bijou; and g in lodge, prestige, singe. The former sound is
 <lb/>represented by Frenchmen with dj and by Germans with
 <lb/>dsch,if now we double  جthus  سَجَّادَةٌa prayer-carpet,
-<lb/>it is easy to say sa&jcaron;&jcaron; âdaħ, but not saĵĵâdaħ
-<lb/>the French &jcaron; of bijou is therefore more convenient. Turks
+<lb/>it is easy to say sa[jcaron][jcaron] âdaħ, but not saĵĵâdaħ
+<lb/>the French [jcaron] of bijou is therefore more convenient. Turks
 <lb/>however pronounce this letter as ĵ, and (iii) most Egyptians
 <lb/>colloquially as the g of go, which last is the sound given in
 <lb/>Hebrew.
-<lb/>&hdot; can only be learned by ear: beginners must use h until they
+<lb/>[hdot] can only be learned by ear: beginners must use h until they
 <lb/>catch the sound.
 <lb/>kh has long been employed by Anglo- Indians for the final
 <lb/>sound, harshly said, of lough, loch; gh being required for
@@ -111,11 +80,11 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>which cannot in Hebrew writing be distinguished from ح 
 <lb/>dh is as th in though, thee, this; being as  of nodern Greece:
 <lb/>but dh as in bedhangings, adhesion.
-<lb/>&zdot; is strictly th said far back: but usually as z pronounced
+<lb/>ż is strictly th said far back: but usually as z pronounced
 <lb/>with the tongue's tip pressed against the lower teeth; then
 <lb/>z must be sounded sharply to make a distinction.
 <lb/>s sounds as in kiss:  مُسْلِمMoslem (quasi-mosslem) is muslim
-<pb n="5" TEIform="pb"/>
+<pb n="5"/>
 <lb/>the first syllable of which resembles that of muzzle -im
 <lb/>neither in vowel nor consonant. If hissed with the tongue's
 <lb/>tip s contrasts with
@@ -124,7 +93,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>use ch and Germans sch, which last represents in Dutch
 <lb/>  سخskh.
 <lb/>must be learnt by ear. The arrangement of throat is the
-<lb/>same as that required for &hdot; but without aspirate. To
+<lb/>same as that required for [hdot] but without aspirate. To
 <lb/>mimic baby camels is best of all; otherwise one must repeat
 <lb/>words in which  عَيْنain occurs between two vowels, as
 <lb/>  فَعَلَfa'ala, he did,  فَعَلَتْ فَعَلْتَ فَعَلْتِ فَعَلْتُetc. (see § 369,
@@ -142,10 +111,10 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>sawâkin (Souakim) female inhabitants,  يُوسُفyûsuf Joseph;
 <lb/>but, as these three examples show,  ي و اare frequently
 <lb/>letters of prolongation (see § 6).
-<pb n="6" TEIform="pb"/>
+<pb n="6"/>
 <lb/>ħ representing ة and  ـةis sounded as h when final, and as
 <lb/>t when followed by a vowel: it is called  تَآءٌ مَرْبُوطَةٌ tâ'
-<lb/>mandû&#x020DB;aħ tied,as distinguished from ت t,  تَآءٌ مَمْدُودَةٌtâ'
+<lb/>mandû⃛aħ tied,as distinguished from ت t,  تَآءٌ مَمْدُودَةٌtâ'
 <lb/>mandûdaħ stretched (see § 294 rem. b)
 <lb/>4. The vowels and diphthongs are as follows:
 <lb/>  فَتْحَةٌa as vowel sound in aunt, wan, thumb, hat.
@@ -157,17 +126,17 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>  يِai as vowel sound in aisle, my, rule, sigh, die, I.
 <lb/>  وَau as vowel sound in thou, how, bough.
 <lb/>  ىَa is as â.
-<lb/>  ًan tanwîn of fat&hdot;ħ (see § 8).
-<lb/>  ِin tanwîn of k&adiacritic;sraħ (see § 8).
-<lb/>  ٌun tanwîn of &ddot;mmaħ (see § 8).
+<lb/>  ًan tanwîn of fat[hdot]ħ (see § 8).
+<lb/>  ِin tanwîn of k[adiacritic]sraħ (see § 8).
+<lb/>  ٌun tanwîn of [ddot]mmaħ (see § 8).
 <lb/>  ىًan as an, but in pause as â (see § 27).
-<lb/>  اٍa&ncirc; as an, but in pause as â (see § 27).
+<lb/>  اٍa[ncirc ] as an, but in pause as â (see § 27).
 <lb/>REM. a. The three Arabic words above are names of the
 <lb/>vowel-marks, the corresponding sounds being called كَسْرٌ فَتْحٌ and ضَمُّ 
 <lb/>REM. b. A vowel is called  حَرَكَةٌa motion, its mark being
 <lb/>termed  شَكْلٌform or figure, plural أَسْكَالٌ and  .شُكُولٌHence
 <lb/>a consonant when followed by a vowel is said to be  مُتَحَرِكٌin motion.
-<pb n="7" TEIform="pb"/>
+<pb n="7"/>
 <lb/>5.When the Corân is recited, each letter, whatever its
 <lb/>relative position, in theory represents the same sound; but in
 <lb/>practice certain consonants somewhat modify adjacent vowels,
@@ -185,8 +154,8 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>the corresponding short vowels before و ا and ي respectively,
 <lb/>which are then called  حُرُوفُ الْمَدِّletters of prolongation.
 <lb/>REM.a. In certain common words â is indicated merely by
-<lb/>fat&hdot;aħ; as  اللهُetc., which should properly be written with the
-<lb/>perpendicular fat&hdot;aħ, thus اَللُّهُ God,  هرُونُAaron,  اَلرَّحْمنُthe
+<lb/>fat[hdot]aħ; as  اللهُetc., which should properly be written with the
+<lb/>perpendicular fat[hdot]aħ, thus اَللُّهُ God,  هرُونُAaron,  اَلرَّحْمنُthe
 <lb/>merciful,  اَلسَّموَاتُthe heavens,  اَلْقِيمَةُthe resurrestion,  لكِنْbut,
 <lb/>  ذلِكَthat,  هذَاthis etc.: the words  ثَلَاثٌthree,  ثَلَاثُونَthirty,
 <lb/>*Attempts have been made to print the Maltese dialect of Arabic in
@@ -197,10 +166,10 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>Exercises, Reading-Lessons and Glossaries, from the German of Dr K. Vollers
 <lb/>With numerous additions by the Author. Translated by F. C. Burkitt, M. A.,
 <lb/>Trinity College. Cambridge: at the University Press, 1895.”
-<pb n="8" TEIform="pb"/>
+<pb n="8"/>
 <lb/>  ثَمَانِيةٌeight,  ثَمَانُونَeighty and  إِسْرَئِيلُIsrael are also written
 <lb/>defectively, thus ثَمنُونَ ثَمنِيةٌ ثَلقُونَ ثَلثٌ and إِسْرَائِلُ 
-<lb/>7. Fat&hdot;aħ before ي and و forms the diphthongs ai and au
+<lb/>7. Fat[hdot]aħ before ي and و forms the diphthongs ai and au
 <lb/>(see § 4). Colloquial pronunciation however, frequently gives
 <lb/>ai as ei in vein, reign, neighbour, thus شَيْخ as sheikha elder, chief,
 <lb/>  بَيْتas beit house, family, verse, اِثْنَيْنِ (oblique case of اِثْنَانِ ) as
@@ -211,7 +180,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>REM. a. A superfluous  اis written after  وat the end of
 <lb/>certain verbal forms: it is useful in manuscript to prevent the و 
 <lb/>seeming separate and so being mistaken for  وَand.
-<lb/>REM. b. At the end of a word  ىfollowing upon fat&hdot;aħ (i.e a
+<lb/>REM. b. At the end of a word  ىfollowing upon fat[hdot]aħ (i.e a
 <lb/>see § 4) is pronounced as  اâ, so that  عَلَى'ala upon and  عَلَاalâ
 <lb/>to be high scan the same. When in this position ا and ى are
 <lb/>called  اَلْأَلِفُ الْمَقْصُورَةُthe ' alif that can be abbreviated, because
@@ -224,7 +193,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>al also are  وof  وْau and  ي of  يْai. When attached to
 <lb/>tanwîn, radical final 'alif is quiescent, thus  عَصًاa stick (see
 <lb/>§ 212 b); but it is also maqçûaħ in  اَلعَصَاthe stick.
-<pb n="9" TEIform="pb"/>
+<pb n="9"/>
 <lb/>REM. c. If a pronominal suffix be added to a word ending in
 <lb/>  ىas  نَرَىwe see, the  ىis sometimes retained, but more often
 <lb/>is changed into  اas  نَرَاكَfor  نَرَيكَor  نَريكَ (all pronounced)
@@ -236,14 +205,14 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>8. Marks of the short vowels when doubled at the end of a
 <lb/>word (see § 4) are pronounced thus ً an, ٍ in, ٌ un, which
 <lb/>is called  تَنْوِينٌtanwînun adding of the letter nûn.
-<lb/>REM. a. Tanwîn of fat&hdot;aħ takes ا  after all consonants except
+<lb/>REM. a. Tanwîn of fat[hdot]aħ takes ا  after all consonants except
 <lb/>  ةas بَابًا quite, but سِنَةً drousiness (see § 308). When preceding
 <lb/>  ىit requires no ا as هُدًى guidance. Notwithstanding this' alif,
-<lb/>the vowel is short: thus bâba&ncirc; (not ân), but in pause (see § 27)
-<lb/>bâbâ. We transliterate بَابًا bâba&ncirc; and سِنَةً sinaħan, but a&ncirc; and
+<lb/>the vowel is short: thus bâba[ncirc ] (not ân), but in pause (see § 27)
+<lb/>bâbâ. We transliterate بَابًا bâba[ncirc ] and سِنَةً sinaħan, but a[ncirc ] and
 <lb/>an are pronounced alike; except n pause, when an is not heard,
-<lb/>whereas a&ncirc; sounds as â. In pause sinaħan is read sinah (see
-<lb/>en&ddot; fo § 2).
+<lb/>whereas a[ncirc ] sounds as â. In pause sinaħan is read sinah (see
+<lb/>en[ddot] fo § 2).
 <lb/>The following orthographic signs are also use:
 <lb/>9. Sukûn rest  هis placed over the final consonant of all
 <lb/>shut syllables (see § 25).
@@ -251,7 +220,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>  حَرْفٌ سَاكِنٌa quiescent letter (see § 4 rem. b).
 <lb/>REM. b. Letters that are assimilated to a following letter,
 <lb/>which receive in consequence tashdîd (see § 11), are retained
-<pb n="10" TEIform="pb"/>
+<pb n="10"/>
 <lb/>in writing but are not marked with sukûn; thus اَللَّغَةُ the
 <lb/>language,  أضرَدتُّpronounced 'arattu (see § 14 c).
 <lb/>10. When part of a diphthong ي and و take sukûn, but this
@@ -274,7 +243,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>  مِن رَّبِّهِfrom his Lord,  كِتَابٌ مُّبِينٌa perspicuous book, which
 <lb/>are read mirrabbihi, kitâbummubînun. The n of the words
 <lb/>  أَنْ عَنْ مِنْis often not written when they are combined with مَنْ مَا or لَا 
-<pb n="11" TEIform="pb"/>
+<pb n="11"/>
 <lb/>REM. b. We may write أَلَّا، أَن لَّا، أَنْ لَا that not, and إِلَّا 
 <lb/>for إِن لَّا it not; but عَمَّا from what is better so written for
 <lb/>  عَنْ مَاas is إِمَّا  إِنْ مَاfor  if with نَا الزَّائِدَةُ redundant mâ
@@ -300,7 +269,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>REM. c. Hamzah is marked btween ا and sukûn or the
 <lb/>following vowel; but we find  مَلَئِهِhis chiefs,  خَاشِئينَobject,
 <lb/>and even  بَئشٌgriexous.
-<pb n="12" TEIform="pb"/>
+<pb n="12"/>
 <lb/>REM. d. Hamzah is most perceptible in the middle of a
 <lb/>word as  اَلْقُرْآنُfor (see § 23)  اَلْقُرْأَانُal qur'ânu (not qurânu)
 <lb/>the Corân.
@@ -314,19 +283,19 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>(a) always at a word's end, after sukûn or a letter of prolongation,
 <lb/>as  جَاءَhe came,  سُوءٌevil,  مَجِيءٌa coming,  ظِمْءٌthirst;
 <lb/>and in the middle of a word after 'alif of prolongation provided
-<lb/>the hamzaħ bears fat&hdot;aħ as acc.  أَعْدَاءَكُمْyour enemies, but nom.
+<lb/>the hamzaħ bears fat[hdot]aħ as acc.  أَعْدَاءَكُمْyour enemies, but nom.
 <lb/> أَعْدَآؤُكُمْ , dep. أَعْدآئِكُمْ 
 <lb/>Note. For أَعْدَآءَكُمْ جَآءَ see § 22, and for  مَجِيءٌ سُوءٌsee
 <lb/>§ 23 rem. c.
 <lb/>(b) frequently in the middle of words after و or ي of prolongation
 <lb/>and after sukûn, as  سُوءَىa mischief for مَشِيئَةٌ سُوؤَى 
 <lb/>wish for  مَشِيئَةٌ يَسْئَلُ he asks for يَسْأَلُ ; also after kasraħ and
-<lb/>&ddot;ammah before ي  or  وof prolongation;  خَاطِئينَkhâ&#x020DB;i'îna sinners
+<lb/>[ddot]ammah before ي  or  وof prolongation;  خَاطِئينَkhâ⃛i'îna sinners
 <lb/>for  رُءُوسٌ خَاطِئِينَru'ûsun heads for رُؤُوشٌ Sometimes it is
 <lb/>improperly placed over the letter of prolongation, as خَطِيَةٌ for
-<lb/>  خَطِيَةٌor خَطِيئَةٌ kha&#x020DB;î'aħun sin.
+<lb/>  خَطِيَةٌor خَطِيئَةٌ kha⃛î'aħun sin.
 <lb/>REM. b. Hamzaħ may under certain circumstances be changed
-<pb n="13" TEIform="pb"/>
+<pb n="13"/>
 <lb/>into a weak letter, as مِيةٌ for مِئَةٌ (see § 325 rem. a),  نَبِيُّfor
 <lb/>  نَبِيءٌprophet, فَيٌّ for فَيْءٌ shade,  رَاسٌfor رَأْسٌ head بِيرٌ for بِئْرٌ a
 <lb/>cistern,  أَالِهَةٌfor أَأْلِهَةٌ  gods,  أَامَنَّاfor  أَأْمَنَّاwe believed.
@@ -351,7 +320,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>REM. c. In most of these words the 'alif and vowel are prosthetic,
 <lb/>i. e. prefixed to a vowelless initial consonant' for the sake
 <lb/>of euphony (see § 26).
-<pb n="14" TEIform="pb"/>
+<pb n="14"/>
 <lb/>REM. d. It is obviously an error t begin a sentence with~آ 
 <lb/>in such case the connective 'alif is written without hamzaħ but
 <lb/>with a vowel, as  اَلْحَمْدُ لِلَّهِPraise belongs to God.
@@ -359,8 +328,8 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>20. The connective 'alif may follow
 <lb/>(a) a short vowel, which then absorbs it (see § 18).
 <lb/>(b) a long vowel, which is then shortened in pronunciation
-<lb/>to comply with § 25; as  فِى الْأَرْضِfî -l 'ar&ddot;i to be read fil'ar&ddot;i
-<lb/>in the earth  اِهْدِنَا الصِّراَطَihdinâ -l çirâ&#x020DB;a to be read ihdinaççirâ&#x020DB;a
+<lb/>to comply with § 25; as  فِى الْأَرْضِfî -l 'ar[ddot]i to be read fil'ar[ddot]i
+<lb/>in the earth  اِهْدِنَا الصِّراَطَihdinâ -l çirâ⃛a to be read ihdinaççirâ⃛a
 <lb/>guide us (on) the way: but the suffixes of the 1st pers. sing.
 <lb/>  يِand  نِيmay assume before the article the order forms
 <lb/>  يand نِىَ as  أُدْخُلْ بِيَ الْبَيْتَcause me to enter the house,
@@ -372,16 +341,16 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>(d) sukûn over a consonant, which then most usually takes
 <lb/>kasraħ, as  فِى الاِبْتِدَآءِfor  فِي الْ اِبْتِدَآءِin the beginning, مُحَمَّدٌ 
 <lb/>  النَّبِيُّ(sometimes written مُحَمَّدٌ نِ النَّبِيُّ ) Mahomet the prophet
-<lb/>pronounced mu&hdot;ammaduninnabîyu,  جُمْلَةٌ اسْمِيَّةٌa nominal sentence
+<lb/>pronounced mu[hdot]ammaduninnabîyu,  جُمْلَةٌ اسْمِيَّةٌa nominal sentence
 <lb/>(see § 513)  وَلكِنِ انْظُرُbut look. The pronouns  أَنْتُمْyou,
 <lb/>  هُمْthey; the suffixes  كُمْyour, you,  هُمْtheir, them; and the
-<lb/>verbal termination  تُمْtake &ddot;ammaħ (in which they originally
+<lb/>verbal termination  تُمْtake [ddot]ammaħ (in which they originally
 <lb/>ended), as  لَعَنَهُمُ اللهُmay God curse them (see § 401 f) : also
-<pb n="15" TEIform="pb"/>
+<pb n="15"/>
 <lb/>  مُذْsince because contracted for  مُنْذُwhereas  مِنْfrom (see
-<lb/>§ 448) takes fat&hdot;aħ before the article and elsewhere kasraħ.
+<lb/>§ 448) takes fat[hdot]aħ before the article and elsewhere kasraħ.
 <lb/>REM. a. When  هُمْbecomes  هِمْ(see § 185 rem. b) the waçl
-<lb/>may be made with &ddot;mmah  هِمُor kasraħ هِمِ 
+<lb/>may be made with [ddot]mmah  هِمُor kasraħ هِمِ 
 <lb/>21. The ~ is altogether omitted
 <lb/>(a) from  اِسْمٌin the formula  بِسْمِ اللهِfor  بِاسْمِ اللهِin the
 <lb/>name of God, which by way of compensation is written بسم 
@@ -399,11 +368,11 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>'alif, as  سَآئِلٌone who asks for  جَآءَ شَاإِلٌhe came for جَاأض 
 <lb/>  أَعْدَآءَكُمْyour enemies for أَعْدَاأّكُمْ 
 <lb/>23. hamzaħ and 'alif آ also represent a 'alif with hamzah
-<lb/>and fat&hdotah followed by 'alif of prolongation أَا or by 'alif with
+<lb/>and fat[hdot]ah followed by 'alif of prolongation أَا or by 'alif with
 <lb/>hamzah and sukûn  أَأْas  آلَhe returned for أَالَ ءَآلَ آيَةٌ،a sign,
 <lb/>verse for  أَايَةٌfor  آلهِةٌ، أَوَيَةٌgods for آمَنَّا، أّأْلِهَةُ we believed for أّأْمّنَّا 
 <lb/>  سَيِّآتٌfor  سَيِّئَاتٌplural of  سَيِّئَةٌan evil (see § 242 Note 2).
-<pb n="16" TEIform="pb"/>
+<pb n="16"/>
 <lb/>REM. c. hamzaħ is sometimes placed over و and ي of prolongation
 <lb/>when followed by hamzaħ, as سُوءَى، مَجِيءٌ، سُوءٌ 
 <lb/>  مَشِيئَةٌit serves in manuscript to prevent hamzaħ appearing to
@@ -424,27 +393,27 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>page 27 top line) to Him belong the dominion and the praise,
 <lb/>witness alos the Moslem credo phonetically written as pronounced
 <lb/>at Damascus  لَا إلهْ إلَّا اللهْ وَمُحَمَّدٌ لاَّسُولُ اللهْlâ'ilâh: 'illallâh:
-<lb/>wamu&hdot;ammdurrasûlullâh There is no god but God and Mu&hdot;ammad
+<lb/>wamu[hdot]ammdurrasûlullâh There is no god but God and Mu[hdot]ammad
 <lb/>is His apostle. In the Urdu translation of this book – will
 <lb/>mark the shortest pause then, one of medium lenght and as in
 <lb/>English the longest.
 <lb/>NOTE. Professor de Goeje appends to vol ii § 95 f of Wright's
 <lb/>Grammar an instructive footnote condemning pedantic speech,
-<pb n="17" TEIform="pb"/>
+<pb n="17"/>
 <lb/>and he gives reference to a MS at Leyden. In fact case-endings
 <lb/>are nearly always dropped in  اَلدَّارِجُal dârij current speech:
 <lb/>throughout Arabia the proper name  اِبْنُ رَشِيدٍis pronounced
 <lb/>ibrrashîd by Badawîn (Bedouins). The accusative is most often
-<lb/>heard, as  مَرْحَبًاmar&hdot;abaû (see § 435 b) welcome pronounced in
-<lb/>pause mar&hdot;abâ (see § 8 rem. a).
+<lb/>heard, as  مَرْحَبًاmar[hdot]abaû (see § 435 b) welcome pronounced in
+<lb/>pause mar[hdot]abâ (see § 8 rem. a).
 <lb/>28. The accent will not occasion difficulty to Englishmen
 <lb/>who acquire pronunciation of Arabic consonants by reading the
 <lb/>Corân aloud after a Moslem: it is designed to ensure grammatical
 <lb/>accuracy; thus  يُسَبِّخُ(see Elementary Arabic: First
-<lb/>reading book, page  26bottom line) is pronounced yusabbí&hdot;u for
-<lb/>fear of saying yusábbi&hdot;û. Colloquial accentuation differs with
-<lb/>the locality; thus  مُصْطَفَى اللهِmuç&#x020DB;afa -llâhi chosen of God is
-<lb/>múç&#x020DB;afa in Syria, and in Egypt muç&#x020DB;áfa or even muç&#x020DB;âfa.
+<lb/>reading book, page  26bottom line) is pronounced yusabbí[hdot]u for
+<lb/>fear of saying yusábbi[hdot]û. Colloquial accentuation differs with
+<lb/>the locality; thus  مُصْطَفَى اللهِmuç⃛afa -llâhi chosen of God is
+<lb/>múç⃛afa in Syria, and in Egypt muç⃛áfa or even muç⃛âfa.
 <lb/>32. Numbers were anciently expressed by letters whose
 <lb/>numerical value may be learnt in the following order أَبْجَدْ هَوَّزْ 
 <lb/>  حَطِّي كَلَمَنْ سَعْفَصْ قَرَشَتْ ثَخَذْ ضَظَغْsix consonants, forming
@@ -477,7 +446,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>the second  اَلْعَيْنُal 'ain, and the third  اَللَّامُal lâm.
 <lb/>36. The first form is generally transitive or intransitive in
 <lb/>signification, according to the vowel which accompanies its second radical.
-<pb n="19" TEIform="pb"/>
+<pb n="19"/>
 <lb/>37. The second radical's vowel is a in most transitive verbs, as
 <lb/>  ضَرَبَto beat; and some intransitive, as  رَشَدَto go the right way.
 <lb/>38. Vowel i in similar position usually shows an intransitive
@@ -503,7 +472,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>intransitive in the first form becoming transitive in the second;
 <lb/>as  أَدُبَto be well brought up  أَدَّبَto bestow a good education,
 <lb/>punish,  تَبِرَto perish  تَبَّرَto destroy,  حَرُمَto be unlawful  حَرَّمَto
-<pb n="20" TEIform="pb"/>
+<pb n="20"/>
 <lb/>forbid,  دَمَرَto perish utterly  دَمَّرَto destroy entirely,  سَارَto go
 <lb/>  سَيَّرَto make go,  قَوِيَto be strong  قَوَّىto strengthen, encourage,
 <lb/>  نَبَتَto spring forth  نَبَّتَto plant or sow, and
@@ -530,7 +499,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>in the exceptional sense he helped may possible be a
 <lb/>denominative from the Hebrew ' ezer help (see I Samuel vii. 12).
 <lb/>The noun does not occur in Arabic with that signification.
-<pb n="21" TEIform="pb"/>
+<pb n="21"/>
 <lb/>43. The third form   فَاعَلَimplies
 <lb/>(a) the effort or attempt to perform an act which the first
 <lb/>form denotes as immediately affecting an object, the idea of
@@ -558,7 +527,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>(see § 456 b).
 <lb/>NOTE. The form of the verb  بَارَكَhe blessed may be due to
 <lb/>Hebrew, from which it is most probably derived (see § 455 Note).
-<pb n="22" TEIform="pb"/>
+<pb n="22"/>
 <lb/>45. The fourth form  أَفْعَلَis factitive or causative, (a) verbs
 <lb/>intransitive in the first form becoming transitive; as  أَتْىto come
 <lb/>  آتَىto bring,  أَذِيَto experience damage  آذَىto hurt,  أَسِفَto
@@ -583,7 +552,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>encompass, comprehend,  دَخَلَto go into  أَدْخَلَto cause to enter,
 <lb/>  رَأَى الشَّيْءَhe saw the thing  أَرَهُ الشَّيْءَhe showed him the thing,
 <lb/>  رَجَاto hope for  أَرْجَاىto put off,  عَطَاto receive  أَعْطَىto give,
-<pb n="23" TEIform="pb"/>
+<pb n="23"/>
 <lb/>  غَشِيَto cover, conceal  أَغْشَىto cause to cover,  قَرَأَto read  أَقْرَأَto
 <lb/>teach reading or reciting,  لَقِيَto meet  أَلْقَىto throw,  مَدَّto extend
 <lb/>  أّمَدَّto cause increase,  وَرِثَto inherit  أَوْرَثَto cause to inherit,
@@ -609,7 +578,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>  أَبَانَto become plain from  بَيِّنٌevident,  أَحْرَمَto enter the sacred
 <lb/>* Islâm may mean in English the religion's geographical area, or the
 <lb/>religion itself which is better called Islâmism as we say Judaism.
-<pb n="24" TEIform="pb"/>
+<pb n="24"/>
 <lb/>territory from  حَرَمٌa holy place,  أَعْوَزَto become destitute from
 <lb/>  عَوَزٌwant,  أَفْلَسَto become penniless from  فَلْسٌa copper coin,
 <lb/>  أَمْكَنَto find a place, become possible from  مَكَانٌa place; and
@@ -636,7 +605,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>omen concerning oneself as from the flight of birds,  قَوَّلَto cause
 <lb/>to say, to make out that a man said so and so  تَقَوَّلَto make out
 <lb/>falsely that a man said so and so with a view to one's own
-<pb n="25" TEIform="pb"/>
+<pb n="25"/>
 <lb/>advantage,  كَبَّرَto exalt  تَكَبَّرَto be proud,  كَلَّمَto address, accost
 <lb/>  تَكَلَّمَto speak,  وَفَّىto pay in full  تَوَفَّىto receive payment in full,
 <lb/>and of God to take to Himself,  وَكَّلَto make someone else to be
@@ -661,7 +630,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>reflexive, and frequently simulative especially when the ground
 <lb/>form is intransitive, thus  تَبَآءَسَto feign poverty from  بَئِسَto be
 <lb/>poor. Also we find  تَخَاطَأَwrongly to attribute error to oneself
-<pb n="26" TEIform="pb"/>
+<pb n="26"/>
 <lb/>which is reflexive and intensive of  تَخَطَّأَto impute error to another,
 <lb/>from  خَطِىءَto do wrong. More often it is reciprocal,
 <lb/>as  آمَرَto consult with  تَآمَرَand  تَوَامَرَto deliberate in common,
@@ -686,7 +655,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>to skin  اِنْسَبَأَof the skin to be stripped off,  سَاقَto drive  اِنْسَاقَto
 <lb/>be driven,  قَطَعَto cut  اِنْقَطَعَto be cut off, to be ended, to end,
 <lb/>  قَلَبَto change, invert  اِنْقَلَبَto be changed, translated as by death.
-<pb n="27" TEIform="pb"/>
+<pb n="27"/>
 <lb/>53. This form may imply that a person allows of an act being
 <lb/>done to himself, as  جَرَّto drag.  اِنْجَرَّto let oneself be dragged.
 <lb/>NOTE. We employ  اِنْجَأَثَto split itself as paradigm, though
@@ -711,7 +680,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>the seventh form (see § 113), as  وَعَظَto admonish  اِتَّعَظَto be
 <lb/>admonished; also  هَدَىto direct  اِهْتَدَىto be directed aright,
 <lb/>which however may mean to find true direction.
-<pb n="28" TEIform="pb"/>
+<pb n="28"/>
 <lb/>REM. a. In many verbs this form agrees nearly in meaning
 <lb/>with the first, as  بَدَأَand  اِبْتَدَأَto begin,  تَبِعَand اِتَّبَع to follow,
 <lb/>  هَنَأَand  اهْتَنَأَto put right.
@@ -736,7 +705,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>is indicated by the first, as  أَذَنَto give permission  اِسْتَأْذَنَto ask
 <lb/>permission,  سَقَىto give drink  اِسْتَسْقَىto ask for drink  غَفَرَto
 <lb/>pardon  اِسْتَغْفَرَto ask pardon  فَهِمَto understand  اِسْتَفْهَمَto ask
-<pb n="29" TEIform="pb"/>
+<pb n="29"/>
 <lb/>the meaning,  قَرَأَto read  اِسْتَقْرَأَto ask one to read,  وَقَعَto befall
 <lb/>  اِسْتَوْقَعَto look for its coming to pass.
 <lb/>65. This form is sometimes denominative, as  اِسْتَثْنَىto except
@@ -761,7 +730,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>73. Nearly all verbal forms, primitive or derivative, have
 <lb/>two voices, the active and the passive; but we must often translate
 <lb/>the latter impersonally, as  اُنْجُزَّa dragging took place
-<pb n="30" TEIform="pb"/>
+<pb n="30"/>
 <lb/>  يُشَارُ إِلَيْهِمْone points to them  سُقِطَ فِي أَيْدِيهِمْa falling took
 <lb/>place (or, an onslaught was made) upon their hands, i. e. they
 <lb/>bit their fingers for disappointment (see  533).
@@ -786,7 +755,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>expressing the action or quality (see § 195) In place of participles
 <lb/>two verbal adjectives are used; nomen agentis denoting
 <lb/>the agent, and nomen patientis the patient (see § 229).
-<pb n="31" TEIform="pb"/>
+<pb n="31"/>
 <lb/>81. There are three numbers, Singular, Dual, and Plural;
 <lb/>likewise three persons. the genders are two, Masculine and
 <lb/>Feminine; but distinction cannot in all cases be made, as  أَقُولُ 
@@ -814,7 +783,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>  أَنْتِhou  أَنْتَthou 2nd ,,
 <lb/>  أَنَاI  1st ,,
 <lb/>* These pronouns are called  مُسْتَتِرٌconcealed see § 513.
-<pb n="32" TEIform="pb"/>
+<pb n="32"/>
 <lb/>DUAL
 <lb/>Feminine Common Masculine
 <lb/>  هُمَاthey two 3rd person
@@ -827,10 +796,10 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>NOTE. In § 185 are given pronominal suffixes expressing the
 <lb/>accusative, and those expressing the dependent in § 317.
 <lb/>90. Regarding first the active voice we observe that the 3rd
-<lb/>pers. sing. masc. perfect of the ground form bears fat&hdot;aħ always
+<lb/>pers. sing. masc. perfect of the ground form bears fat[hdot]aħ always
 <lb/>on the first and third radicals.
-<lb/>91. When the middle radical of the perfect has fat&hdot;ħ a
-<lb/>verb must take either &ddot;ammaħ or kasraħ in the imperfect; as
+<lb/>91. When the middle radical of the perfect has fat[hdot]ħ a
+<lb/>verb must take either [ddot]ammaħ or kasraħ in the imperfect; as
 <lb/>  بَطَلَto be worthless  ضَرَبَ، يَبْطُلُto strike  يَضْرِبُwhich we write
 <lb/>  بَطَلَand  ضَرَبَAlso  أَثَرَto relate,  خَلَقَto create,
 <lb/>  رَزَقَto provide,  سَكَنَto dwell,  شَكَرَto be thankful,
@@ -840,7 +809,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>Many verbs admit of both forms; as  دَرَسَto study,  يَدْرُسُand
 <lb/>  يَدْرِسُwhich we shorten into  دَرَسَalso  سَبَتَto keep Sabbath,
 <lb/>  عَكَفَto cling.
-<pb n="33" TEIform="pb"/>
+<pb n="33"/>
 <lb/>REM a. Verbs of which the second or third radical is a
 <lb/>guttural (either  ه، غ، ع، خ، ح، أ ) may be exceptional; as
 <lb/>  بَعَثَto send,  جَعَلَto make, place,  جَمَعَto collect,
@@ -856,7 +825,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>  فَرَِغَto be vacant.
 <lb/>NOTE. As paradigm we use فَعَُِلَ 
 <lb/>92. When the second radical of the perfect has kasraħ,
-<lb/>the imperfect bears fat&hdot;ħ; as  أَثِمَto sin,  حَبِطَto be vain,
+<lb/>the imperfect bears fat[hdot]ħ; as  أَثِمَto sin,  حَبِطَto be vain,
 <lb/>  خَطِىَto do wrong, sin,  رَهِبَto fear,  سَفِهَto be light-witted
 <lb/>  شَهِدَto testify,  صَحِبَto consort with  صَعِقَto
 <lb/>swoon,  صَغِرَto be small,  طَمِعَto desire,  عَجِبَto wonder,
@@ -864,15 +833,15 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>REM. Exceptions are rare, as  بَئِسَto be in distress or
 <lb/>poverty,  حَضَرَto be present, and  مَاتَto die for مَوِتَ (see § 157)
 <lb/>which usually makes  يَمُوتُbut sometimes يَمِيتُ ، يَمَاتُ 
-<lb/>93. When the middle radical of the perfect has &ddot;ammaħ the]
+<lb/>93. When the middle radical of the perfect has [ddot]ammaħ the]
 <lb/>imperfect bears the same, as  بَصُرَto see,  خَبُثَto be bad,
-<pb n="34" TEIform="pb"/>
+<pb n="34"/>
 <lb/>  رَحُبَto be spacious,  سَفُهَto be light-witted,  شَهُدَto testify,
 <lb/>  صَغُرَto be small,  كَبُرَto be great,  كَثُرَto be numerous,
 <lb/>  نَهُوَto be intelligent.
 <lb/>95. The indicative of the imperfect is distinguished by
-<lb/>&ddot;ammaħ on the third radical, as  يَجْهَلُhe is ignorant; the subjunctive
-<lb/>by fat&hdot;aħ, as  يَجْهَلَand the jussive by sukûn, as يَجْهَلْ 
+<lb/>[ddot]ammaħ on the third radical, as  يَجْهَلُhe is ignorant; the subjunctive
+<lb/>by fat[hdot]aħ, as  يَجْهَلَand the jussive by sukûn, as يَجْهَلْ 
 <lb/>96. A termination  نَof the indicative is only retained in
 <lb/>the subjunctive and jussive when required as mark of gender;
 <lb/>otherwise it and  نِare rejected.
@@ -885,15 +854,15 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>Elementary Arabic: First reading book.
 <lb/>98. The imperative is formed by substituting a prosthetic
 <lb/>vowel for the prefix of the jussive's 2nd sing.: when the second
-<lb/>radical bears fat&hdot;ħ or kasraħ this vowel is kasraħ, and when
-<lb/>&ddot;ammaħ it is &ddot;ammaħ; thus,  اِجْعَلْmake,  اِرْحَمْhave mercy upon,
+<lb/>radical bears fat[hdot]ħ or kasraħ this vowel is kasraħ, and when
+<lb/>[ddot]ammaħ it is [ddot]ammaħ; thus,  اِجْعَلْmake,  اِرْحَمْhave mercy upon,
 <lb/>  اِكْشِفْremove,  اِعْدِلْbe just,  اُسْكُنْcalm thyself,  اُطْلُبْseek;
 <lb/>and similarly with the feminine etc.
 <lb/>REM. a. Concerning prosthetic vowels see § 19, rem. c.
-<lb/>REM. b. Fat&hdot;aħ is never so employed.
+<lb/>REM. b. Fat[hdot]aħ is never so employed.
 <lb/>100. From the active voice the passive is distinguished by
 <lb/>altered vowels (see § 369, Table 2) on th and second. radicals.
-<pb n="35" TEIform="pb"/>
+<pb n="35"/>
 <lb/>REM. It makes no difference what characteristic vowels are
 <lb/>employed in the active voice
 <lb/>101. Instead of a passive imperative the jussive is used.
@@ -919,7 +888,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>115. If the first radical be  ث، تcharacteristic  تof the
 <lb/>eighth form unites with the initial  تinto  تّand with initial ث 
 <lb/>into  ث، تّas اِتَّبَعَ he followed for اِتْتَبَعَ .
-<pb n="36" TEIform="pb"/>
+<pb n="36"/>
 <lb/>117. If the first radical be  ظ، ط، ض، صcharacteristic ت 
 <lb/>is changed into  ،ط as اِصْطَفَيْتُI chose from  صَفَا(see § 55)
 <lb/>and not اِصْتَفَيْتُ 
@@ -944,7 +913,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>124. In some derived forms will be found alternative
 <lb/>vocalization : this is common when the doubled radical follows
 <lb/> as مَادَدَ for  مَادَّsee § 25, rem.
-<pb n="37" TEIform="pb"/>
+<pb n="37"/>
 <lb/>126. Verbs are called weak when one of the three radical
 <lb/>letters is subject to transformation or rejection.
 <lb/>128. Verbs with  ي، وfor a radical are unmistakeably
@@ -955,7 +924,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>hamzaħ serves for first, second or third radical : they are conjugated
 <lb/>in § 369, Tables 6 to 8, differing from strong verbs
 <lb/>especially as regards the 'imâd (see § 15) in the following ways.
-<lb/>131. The 'alif with hamzaħ and sukûn  أْpreceded by &ddot;ammaħ
+<lb/>131. The 'alif with hamzaħ and sukûn  أْpreceded by [ddot]ammaħ
 <lb/>becomes  دَنُؤْتَِ ؤْthou art mean not  دَنُأْتَِpreceded by kasraħ
 <lb/>  خَطِئْتُ ءْI have done wrong not خَطِأْتُ 
 <lb/>132. It is said by some that  ي وrepresent sounds
@@ -964,14 +933,14 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>  اِيذَنْgive ear for  اِيتِ ، اِئْذَنْcome for  اِئْتِ(see § 175) but
 <lb/>in imperatives following  فَ، وَthe connective 'alif is rejected
 <lb/>while hamzaħ with sukûn remains; thus  فَأْتِso then come.
-<lb/>133. Similarly  أُbecomes  ؤُif preceded by fat&hdot;ħ, as  بَؤُسَto
-<lb/>be brave not  إِ، بَأُسَ become ءِif preceded by fat&hdot;ħ, as fat&hdot;ħ
-<lb/>to be in distress not  أَ، بَإِسَ become ؤَif preceded by &ddot;ammaħ, as
+<lb/>133. Similarly  أُbecomes  ؤُif preceded by fat[hdot]ħ, as  بَؤُسَto
+<lb/>be brave not  إِ، بَأُسَ become ءِif preceded by fat[hdot]ħ, as fat[hdot]ħ
+<lb/>to be in distress not  أَ، بَإِسَ become ؤَif preceded by [ddot]ammaħ, as
 <lb/>  دَنُؤَto be ignoble not  أَ ، دَنُأَ become ءَif preceded by kasraħ, as
-<pb n="38" TEIform="pb"/>
-<lb/>  خَطِئَto do wrong not   إِ ، خَطِأَ becomes  ءِif preceded by &ddot;ammaħ,
+<pb n="38"/>
+<lb/>  خَطِئَto do wrong not   إِ ، خَطِأَ becomes  ءِif preceded by [ddot]ammaħ,
 <lb/>as  سُئِلَ(passive) he was asked not سُإِلَ 
-<lb/>REM. At the end of a word  أُstands after fat&hdot;aħ, thus يَقْرَأُ 
+<lb/>REM. At the end of a word  أُstands after fat[hdot]aħ, thus يَقْرَأُ 
 <lb/>he reads but  يَقْرَؤُهُhe reads it.
 <lb/>134. When preceded by a consonant with sukûn  أُbecomes ؤُ 
 <lb/>as  يَبْؤُسُimperfect of  بَؤُسَnot  يَبْأُسُand  إِbecomes  ءِas, not
@@ -991,7 +960,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>140. Loss of hamzaħ occasionally takes place and we have
 <lb/>  سَالَ يَسَالُ for سَأَلَto ask. The vowel may even be transferred,
 <lb/>as  أَلَكَto send for أَلْأَكَ whence  مَلَكٌ for مَلْأَكٌan angel.
-<pb n="39" TEIform="pb"/>
+<pb n="39"/>
 <lb/>A GRAMMAR.
 <lb/>141. Weak verbs specially so called likewise fall into three
 <lb/>classes according as  وor  ىis the first, the second, or the third radical.
@@ -1004,24 +973,24 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>REM. a. A few verbs, having (contrary to § 92) kasraħ in
 <lb/>both perfect and imperfect, lose their initial radical, as  وَثِقَto
 <lb/>trust  وَرِثَ ، يَثِقُto inherit  وَلِىَ ، يَرِثُto be near يَلِي 
-<lb/>143. But verbs with  وas initial radical, which have fat&hdot;aħ
-<lb/>or &ddot;ammaħ for characteristic vowel of the imperfect and imperative,
+<lb/>143. But verbs with  وas initial radical, which have fat[hdot]aħ
+<lb/>or [ddot]ammaħ for characteristic vowel of the imperfect and imperative,
 <lb/>retain  وin those forms; as  وَسِنَto doze imperf. يَوْسَنُ 
 <lb/>impera.  اِيسَنْ for وَبُلُ ، اِوْسَنْto be unwholesome imperf. يَوْبُلُ 
 <lb/>impera.  وَجِلَ، اُوبُلْto fear imperf.  يَوْجَلُimpera.  اِيجَلْfor اِوْجَلْ 
 <lb/>144. In certain verbs initial  وdrops from the imperfect and
-<lb/>imperative notwithstanding that fat&hdotaħ is the characteristic
+<lb/>imperative notwithstanding that fat[hdot]aħ is the characteristic
 <lb/>vowel of these forms; as  وذرto leave  يَذَرُand  وَسِعَ ، ذَرْto be
 <lb/>spacious يَسَعُand وَضَعَ ، سَعْto put down يَضَعُand وَقَعَ، ضَعْto fall يَقَعُ and قَعْ 
 <lb/>REM. b.  وذرis not used in the perfect.
-<pb n="40" TEIform="pb"/>
-<lb/>145. If initial  وbe vowelless, a preceding kasraħ or &ddot;ammaħ
+<pb n="40"/>
+<lb/>145. If initial  وbe vowelless, a preceding kasraħ or [ddot]ammaħ
 <lb/>changes it into  و، يof prolongation as may be seen in § 143
 <lb/>with the imperatives of  وَبُلَ وَسِنَand وَجِلَ 
 <lb/>146. Verbs with  يas initial radical are inflected almost
 <lb/>like strong verbs, thus  يَسَرَ يَيْسِرُ(see § 369, Table 9).
 <lb/>147. But if initial  يbe vowelless, a preceding kasraħ or
-<lb/>&ddot;ammaħ changes it into  يor و of prolongation; thus the
+<lb/>[ddot]ammaħ changes it into  يor و of prolongation; thus the
 <lb/>imperative of  يَسَرَto be easy is اِيسِرْ for اِيْسِرْ and the fourth
 <lb/>form is  أَيْسَرَ يُوسِرُto arrive at ease.
 <lb/>148. In the eight form  وand  يare assimilated to the
@@ -1039,7 +1008,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>with form  يَخْوَفُ يَفْعَلُbecomes  يَخَافُI of  خَافَto fear
 <lb/>with form  do يَنْيَلُ becomes  يَنَالُI of  نَالَto reach
 <lb/>with form  يُسْوَمُ يُفْعَلُbecomes  يُسَامُI of  سَامَto inflict
-<pb n="41" TEIform="pb"/>
+<pb n="41"/>
 <lb/>with form  أَفْوَزَ أَفْعَلَbecomes  أَفَازَIV of  فَازَto obtain
 <lb/>with form do.  أَضْيَعَ becomes  أَضَاعَIV of  ضَاعَto be lost
 <lb/>with form  يُذْوِقُ يُفْعِلُbecomes  يُذِيقُIV  ذَاقَto taste
@@ -1059,14 +1028,14 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>NOTE. We have  يَكُونَنَّhe will certainly be from  يَكُنْ(see
 <lb/>§ 97) jussive of  كَانَto be : the letter of prolongation must
 <lb/>reappear in obedience to § 150. So in the plural, thus  لَا تَخَافُواfear ye not.
-<pb n="42" TEIform="pb"/>
+<pb n="42"/>
 <lb/>152. If follows that the first form's imperative needs no prosthetic alif; thus
 <lb/>with form  اُكُونْ اُفْعُلْbecomes  كُنْfrom  كَانَto be
 <lb/>with form  اِصِيرْ اِفْعِلْbecomes  صِرْfrom  صَارَto become
 <lb/>with form  اِخَافْ اِفْعَلْbecomes  خَفْfrom  خَافَto fear
 <lb/>with form  اُتُوبُوا اُفْعُلُواbecomes  تُوبُواfrom  تَابَto repent
 <lb/>153. If three open syllables follow in immediate succession,
-<lb/>the first of which has fat&hdot;aħ then 'alif of prolongation takes the
+<lb/>the first of which has fat[hdot]aħ then 'alif of prolongation takes the
 <lb/>middle radical's place; thus
 <lb/>with form  نَوَرَ فَعَلَbecomes  نَارَI of  نَارَto shine
 <lb/>with form do.  غَيَبَbecomes  غَابَI of  غَابَto be absent
@@ -1074,18 +1043,18 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>with form  طَوُلَ فَعُلَbecomes  طَالَI of  طَالَto be long
 <lb/>with form  اِنْسَوَقَ اِنْفَعَلَbecomes  اِنْسَاقَVII of  سَاقَto drive
 <lb/>with form  يَخْتَيِرُ يَفْتَعِلُbecomes  يَخْتَارُVIII of  خَارَto be good
-<lb/>154. But if the first syllable's vowel be &ddot;mmaħ, and  وor
-<lb/>  يbear kasraħ, we discard &ddot;ammaħ, taking kasraħ into its place,
+<lb/>154. But if the first syllable's vowel be [ddot]mmaħ, and  وor
+<lb/>  يbear kasraħ, we discard [ddot]ammaħ, taking kasraħ into its place,
 <lb/>and adopt  يof prolongation instead of the middle radical; as
 <lb/>with form  قُوِلَ فُعِلَbecomes  قِيلَpassive of  قَالَto say.
-<lb/>155. If the first radical has fat&hdotaħ and the third sukûn, three cases arise.
-<pb n="43" TEIform="pb"/>
-<lb/>(a) The middle radical is  وor  يwith fat&hdot;aħ; when we
-<lb/>discard it and its vowel, placing, if it was  و&ddot;ammaħ on the first
+<lb/>155. If the first radical has fat[hdot]aħ and the third sukûn, three cases arise.
+<pb n="43"/>
+<lb/>(a) The middle radical is  وor  يwith fat[hdot]aħ; when we
+<lb/>discard it and its vowel, placing, if it was  و[ddot]ammaħ on the first
 <lb/>radical, and kasraħ if it was  ي: thus
 <lb/>with form  قَوَمْتَ فَعَلْتَbecomes  قُمْتَfrom  قَامَto stand
 <lb/>with form do  سَيَرْتَbecomes  سِرْتَfrom  سَارَto go
-<lb/>(b) The middle radical is  وwith &ddot;ammaħ or  يwith kasraħ;
+<lb/>(b) The middle radical is  وwith [ddot]ammaħ or  يwith kasraħ;
 <lb/>when we discard it and its vowel, but we place a vowel homogeneous
 <lb/>with it upon the first radical: as
 <lb/>with form  طَوُلْتَ فَعُلْتَbecomes  طُلْتَfrom  طَالَto be long
@@ -1098,13 +1067,13 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>shortened into kasraħ, when the third radical bears sukûn; thus
 <lb/>  دِينْتَِ(for  دُيِنْتَِ ) becomes  دِنْتَِthou wast obeyed, which is identical
 <lb/>in form with  دِنْتَِthou hast obeyed.
-<lb/>157. Most verbs with  وas middle radical take &ddot;ammaħ in
+<lb/>157. Most verbs with  وas middle radical take [ddot]ammaħ in
 <lb/>the imperfect, and most with  يtake kasraħ; but some of the
 <lb/>form  فَعِلَtake fathdot;aħ. Thus
 <lb/>  كَادَfor  كَوِدَto be on the point of makes  يَكَادُfor يَكْوَدُ 
 <lb/>  خَافَfor  خَوِفَto fear on the point of makes  يَخَافُfor يَخْوَفُ 
 <lb/>  شَآءَfor  شَيِئَto wish on the point of makes  يَشَآءَfor يَشْيَأُ 
-<pb n="44" TEIform="pb"/>
+<pb n="44"/>
 <lb/>  نَامَfor  نَوِمَto sleep makes  يَنَامُfor يَنْوَمُ 
 <lb/>  نَالَfor  نَيِلَto reach makes  يَنَالُfor يَنْيَلُ 
 <lb/>We have mentioned (§ 92, rem.)  مَاتَfor  مَوِتَto die.
@@ -1126,7 +1095,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>in  يَiya as  عَمِيَhe was blind
 <lb/>in  يَاiyâ as  غَنِيَا they two (masc.) were rich;
 <lb/>also when following sukûn, as  عَدْوٌa transgressing,  رِضْوَانٌgrace,
-<pb n="45" TEIform="pb"/>
+<pb n="45"/>
 <lb/>favour (see § 212 a). The letter  وin  وَiwa and in  وَاiwâ
 <lb/>always becomes  يas  بُلِيَhe was tried for  بُلِوَThe letter  يis
 <lb/>never found in  يَuya or in  يَاuyâ, though we have تُبُيِّنَ 
@@ -1150,7 +1119,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>(a) if the preceding vowel be homogeneous
 <lb/>  وْuw becomes  وû as  نَهُوتُI was prudent
 <lb/>  يْiy becomes  يi as  غَشِيتI covered
-<pb n="46" TEIform="pb"/>
+<pb n="46"/>
 <lb/>(b) if the preceding vowel be heterogeneous
 <lb/>  وْaw becomes  وْa u as  نَجَوْتُI escaped
 <lb/>  يْay becomes  يْai as  هَدَيْتُI directed
@@ -1164,7 +1133,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>  اَبْغِseek thou (masc.) for  اِبْغِيand يَبْغِ for يَبْغِي 
 <lb/>  اِرْضَbe thou content (masc.) for اِرْضَى  and يَرْضَ  for يَرْضَى 
 <lb/>(ii) It is elided when so placed in the nomina agentis (see
-<lb/>§ 80) before tanwîn of &ddot;ammaħ and kasraħ, which
+<lb/>§ 80) before tanwîn of [ddot]ammaħ and kasraħ, which
 <lb/>vowels disappear, while the tanwin passes back to
 <lb/>kasraħ of the second radical; thus
 <lb/>with forms  فَاعِلٌand  عَاصِوٍُ فَاعِلٍbecome  عَاصٍa striker
@@ -1173,7 +1142,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>with forms  مُفْعِلٌand  مُلْقِيٌٍ مُفْعِلٍbecome  مُلْقٍa thrower
 <lb/>with forms  مُفْتًعِلٌand  مُعْتَدِيٌٍ مُفْتَعِلٍbecome  مُعْتَدٍtransgressor
 <lb/>So with all the first eight forms and tenth (see §§ 236, 311).
-<pb n="47" TEIform="pb"/>
+<pb n="47"/>
 <lb/>NOTE. The distinction in a (ii) between the final syllables of
 <lb/>  علاfor  علو and  جزىfor  جزيis mechanical and not phonetic
 <lb/>(see § 7, rem. b).
@@ -1184,7 +1153,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>radical  وcoalesces with  وof prolongation, as  مَعْصُوٌّstruck with
 <lb/>a stick for  مَبْلُوٌّ ، مَعْصُووٌtried for  مَبْلُووٌbut radical  يconverts
 <lb/>  وof prolongation into  يand the two coalesce, with kasraħ
-<lb/>preceding instead of &ddot;ammah, as  مَهْدِيٌّone led aright for
+<lb/>preceding instead of [ddot]ammah, as  مَهْدِيٌّone led aright for
 <lb/>  مَهْدُويٌVerbs like  رَضِيَfor  رَضِوَadmit of either form.
 <lb/>171. Doubly weak verbs are of two classes: first those with
 <lb/>both hamzaħ and  وor  يamong their radicals; and second those
@@ -1199,7 +1168,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>174. In sort (ii) hamzaħ serves (a) for initial radical, as
 <lb/>  آدَfor ءَآدَ  أَوَدَto fatigue,  آلَor  ءَآلَfor  أَوَلَto return; and
 <lb/>(b) for final radical, as  سَآءَfor  سَوَءَto be evil,  جَآءَfor  جَيَأَto come,
-<pb n="48" TEIform="pb"/>
+<pb n="48"/>
 <lb/>  شَآءَ for شَيِءَ to wish. The following table shows such verbs
 <lb/>inflected like both classes to which they belong.
 <lb/>Perf. sing. 3rd mase. شَآءَ جَآءَ سَآءَ   ءَآدَ 
@@ -1221,7 +1190,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>Nomen agentis  نَآءٍ     آذٍ آتٍ 
 <lb/>REM. a. In the imperative  أَتَىhas also  تِfor اِيتِ and اِئْتِ 
 <lb/>see § 132, rem. b.
-<pb n="49" TEIform="pb"/>
+<pb n="49"/>
 <lb/>176. From certain parts of  رَأَىhamzated 'alif may be
 <lb/>elided; as (indic. and subj.)  تَرَىthus (masc.) seest,  نَرَىwe see;
 <lb/>(subj. and juss.)  يَرَوْاthey (masc) see; but (perf.)  رَأَيْتُI saw,
@@ -1247,7 +1216,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>Perf. sing. 2nd masc.حَيِيتَ قَوِيتَ غَوَيْتَ 
 <lb/>Imperf. indic. يَحْيَا يَقْوَى يَغْوِي
 <lb/>Imperative اِحْيَ اِقْوَ اِغْوِ
-<pb n="50" TEIform="pb"/>
+<pb n="50"/>
 <lb/>REM. a. We write  يَحْيَاas above, to distinguish the word
 <lb/>from  يَحْيَىJohn the Baptist and to prevent the union of two  يas
 <lb/>also in  اَلدَّنْيَا(not  اَلدُّنْيَى ) fem. of  اَلْأَدْنَىthe nearest (see § 295 b).
@@ -1272,7 +1241,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>185. We give here a table of the pronominal suffixes which
 <lb/>follow verbs in order to express the accusative, the nominative
 <lb/>pronouns having been mentioned in § 89.
-<pb n="51" TEIform="pb"/>
+<pb n="51"/>
 <lb/>SINGULAR.
 <lb/>Feminine Common masculine
 <lb/>  هَاher  هُhim 3rd person
@@ -1286,7 +1255,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>  كُنَّyou  كُمْyou 2nd person
 <lb/>  نَاus 1st person
 <lb/>REM. a. For the dependent case, see § 317.
-<lb/>REM. b. The &ddot;amma? of  هُمْ، هُمَا، هُ and هُنَّis changed after
+<lb/>REM. b. The [ddot]amma? of  هُمْ، هُمَا، هُ and هُنَّis changed after
 <lb/>  يand  يْinto kasra?; as  أَرْجِهِdo thou (masc.) put
 <lb/>him off,  يَهْدِيهِمْhe directs them,  اِغْشَيْهِdo thou (fem.) cover it.
 <lb/>REM. d. For the older forms  هُمُ، نِيَ، يَand  كُمُsee § 20.
@@ -1298,7 +1267,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>  وû which the language employed at an earlier stage, thus
 <lb/>  مَكَرْتُمْye (masc.) have contrived, but  مَكَرْتُمُوهُye have contrived it.
 <lb/>(e) As mentioned in § 7 rem.  ىa becomes ا 
-<pb n="52" TEIform="pb"/>
+<pb n="52"/>
 <lb/>188. Sometimes the pronominal object is expressed by a
 <lb/>suffix attached to the word  إِيَّاwhich cannot stand alone;
 <lb/>thus  إيَّاكَِthee, but the 1st sing. is  إِيَّايَme.
@@ -1322,7 +1291,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>(ii) The adjective, or descriptive epithet.
 <lb/>(iii) The numeral, or noun of number.
 <lb/>(iv) The demonstrative pronoun, or noun of indication.
-<pb n="53" TEIform="pb"/>
+<pb n="53"/>
 <lb/>(v) The conjunctive pronoun
 <lb/>(vi) The personal pronoun, or substitute for a thing or person
 <lb/>not mentioned.
@@ -1349,7 +1318,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>(b) Derivative nouns may be substantive or adjective; and
 <lb/>are either deverbal, as  تَفْضِيلٌpre-eminence from  فَضَّلَto regard
 <lb/>as superior,  أّدِيبٌlettered, polite from  أَدُبَto be well brought
-<pb n="54" TEIform="pb"/>
+<pb n="54"/>
 <lb/>up; or they are denominative, as  سُورَةٌa line of bricks, a chapter
 <lb/>from  سُورٌa well,  مَسِيحِيٌّChristian from  اَلْمَسِيحُthe anointed, Christ.
 <lb/>REM. a. Arabic dictionaries catalogue words under their
@@ -1374,9 +1343,9 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>REM. b. Arabian grammarians unmethodically divide the
 <lb/>nouns into categories which overlap.
 <lb/>NOTE. The following defective substantives are primitive
-<lb/>* An Arabic-English Lexicon by E. W. Lane. London: Williams &
+<lb/>* An Arabic-English Lexicon by E. W. Lane. London: Williams &amp;
 <lb/>Norgate, 1863 to 1893.
-<pb n="55" TEIform="pb"/>
+<pb n="55"/>
 <lb/>nouns;  اِبْنٌson,  أَخٌbrother,  اِسْمٌname,  دَمٌblood,  سَنَةٌyear,
 <lb/>  لُغَةٌlanguage,  يَدٌhand. Many nouns may be called either
 <lb/>deverbal or primitive; thus,  قَرْيَةٌa village,  رِيحٌwind  نَجْمٌa
@@ -1400,7 +1369,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>(v) nomen abstratum qualitatis, the abstract noun of
 <lb/>quality;
 <lb/>(vi) nomen deminutivum, the diminutive.
-<pb n="56" TEIform="pb"/>
+<pb n="56"/>
 <lb/>195. Nomina verbi are deverbal nouns, abstract and concrete.
 <lb/>The former (known as  مَصَادِرُmaçâdir, plural of  مَصْدَرٌmaçdar
 <lb/>source, and as  أَسْمَآءُ الْفِعْلِnomina actionis) are infinitives; the
@@ -1425,7 +1394,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>1  فَعْلٌas  خَلْقٌcreation,  شَيْءٌa thing.
 <lb/>2  فَعَلٌas عَرَضٌ frail goods,  حَالٌstate (see § 207a).
 <lb/>4  فِعْلٌ as حِفْظٌ aguarding,  دِينٌreligion, judgment.
-<pb n="57" TEIform="pb"/>
+<pb n="57"/>
 <lb/>6   فُعْلٌas عُرْفٌ top-knot, an elevated place,  شُحٌّcovetousness.
 <lb/>7  فُعَلٌ as هُدًىguidance (see § 212 b).
 <lb/>8   فَعْلَةٌas رَحْمَةٌmercy,  رَجْفَةٌconvulsion.
@@ -1447,7 +1416,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>40  مَفْعِلٌ as مَصِيرٌreturning, issue,  مَجِيءٌcoming.
 <lb/>42  مَفْعَلَةٌ as مَحَبَّةٌlove (see §204).
 <lb/>43 [xxx] مَفْعَلَةٌ as مَوْعِظَةٌadmonition, [xxx] مَعْذِرَةٌexcuse.
-<pb n="58" TEIform="pb"/>
+<pb n="58"/>
 <lb/>Rem. The forms nubered 39 to 43 commence with مَ ma:
 <lb/>and if infinitive are called مَصْدَر مِيمِي
 <lb/>Note. Beside being feminine of رابِط connector, nomen agentis
@@ -1473,7 +1442,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>سحْر sorcery, ضعْف a like, علْم science.
 <lb/>No. 6 has رُشْد true direction, سُوء evil, مُلْك dominion.
 <lb/>No. 8. has رَغْبَة desire, كَثْرَة abundance, قِطْعَة a piece, لَفْظَة an
-<pb n="59" TEIform="pb"/>
+<pb n="59"/>
 <lb/>expression, a word, and جَنَّة a garden by which the ground is
 <lb/>covered, from جَنَّ to cover.
 <lb/>No. 11 has حِطَّة unloading, ذِلَّة ignominy, قِلَّة paucity.
@@ -1498,7 +1467,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>by characteristic vowels, there may be one or more nouns for
 <lb/>each; thus, مَعْرِفة knowledge and عِرْفَان spiritual insight from
 <lb/>عَرَف to know; also عِرَافة to become عَرِيف over a people from
-<pb n="60" TEIform="pb"/>
+<pb n="60"/>
 <lb/>عَرَفَ to be chief, عِرِيف meaning soothsayer or chief; further
 <lb/>we find عَرْف sweet smell from عَرِفَ to scent perfume.
 <lb/>200. If a verb has more meanings than forms there may be
@@ -1522,7 +1491,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>VI تَغَابُن تَفَاعُل over-reaching.
 <lb/>VII اِنْقِلاَب اِنْفِعَال transition.
 <lb/>VIII اِبْتِدَآء اِفْتِعَال beginning, اِشْتِمَال comprehension, اِنْتِقَام vengeance.
-<pb n="61" TEIform="pb"/>
+<pb n="61"/>
 <lb/>x اِسْتِفْعَال as اِسْتِثْنَآء exception, اسْتِغْفَار an act of asking pardon,
 <lb/>استفهام interrogation, استكبار arrogant pride.
 <lb/>Rem. In from مُفَاعَلَة is identical with the feminine passive participle.
@@ -1544,7 +1513,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>Note. We find the substantive سِنَة drowsiness as well as the
 <lb/>infinitive وَسَن a sleeping from وَسِنَ to sleep which makes يَوْسَنُ
 <lb/>in the imperfect (see § 143).
-<pb n="62" TEIform="pb"/>
+<pb n="62"/>
 <lb/>207. Nouns. from verbs with و or ي as middle radical
 <lb/>observe the rules in §§150 etc.
 <lb/>(a) Those of the form فَعْل remain unchanged, as خَوْف fear,
@@ -1570,8 +1539,8 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>حَلْي an ornament, دَعْوَة an invocation, خُفْيَة concealment (see §166a).
 <lb/>(b) Nouns of the forms فعَل فَعَل and فُعَل are usually written
 <lb/>with final ي which is quiescent, while tanwîn falls upon the
-<pb n="63" TEIform="pb"/>
-<lb/>second radical's fat&hdot;aħ; thus هُدًى guidance for حَيُّ هُدَي a
+<pb n="63"/>
+<lb/>second radical's fat[hdot]aħ; thus هُدًى guidance for حَيُّ هُدَي a
 <lb/>tribe from حَوَى يَحْوِي to gather. Sometimes radical و is written
 <lb/>ا as also in primitive nouns, thus عَصًا a stick for عَصَو
 <lb/>(c) Nouns of the form فَعَلَة with و as final radical may end in
@@ -1583,7 +1552,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>from نَهَى to forbid.
 <lb/>221. Nouns of time and place are formed from the imperfect
 <lb/>active of a verb's ground form by substituting مَ for its prefix:
-<lb/>the second radical bears fath&dot;ħ or d&dot;mmaħ be characteristic
+<lb/>the second radical bears fath˙ħ or d˙mmaħ be characteristic
 <lb/>of the imperfect, but kasraħ if kasraħ. Thus شَرِبَ to
 <lb/>drink, makes يَشْرَبُ whence مَشْرَب drinking place, كَتَبَ to write
 <lb/>يَكْتُبُ whence مَكْتَب place of writing, school, نَزَلَ to descend يَنْزِلُ
@@ -1596,7 +1565,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>مَغْرِب place of setting, the west, مَسْقِط place where anything falls.
 <lb/>222. Nouns of time and place from verbs with و or يas
 <lb/>initial radical have kasraħ to the second syllable and always
-<pb n="64" TEIform="pb"/>
+<pb n="64"/>
 <lb/>retain the first radical; thus مَوْعِد time or place of appointment
 <lb/>from وَعَدَ to promise (see § 142), مَوْضِع a place where anything is
 <lb/>put down, a place from وَضَعَ to put (see §144).
@@ -1606,7 +1575,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>Rem. Verbs with ي as middle radical commonly retain it,
 <lb/>thus مِصِير place of returning, مَجِيء place of arrival.
 <lb/>224. Those from verbs with ي و as final radical always
-<lb/>have fath&dot;aħ (notwithstanding §221) to the second syllable and
+<lb/>have fath˙aħ (notwithstanding §221) to the second syllable and
 <lb/>they suffer the contraction explained in §212 b; thus,مَنْجًى
 <lb/>place of refuge for مَنْجَى for مَنْجَو from نَجَا to escape.
 <lb/>226. Some nouns of time and place from verbs with ي و
@@ -1620,7 +1589,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>take the form مَفْعَل or مِفْعَلَة asمِفْتَح and مِفْتَاح a key
 <lb/>from فَتَحَ to open. Initial و becomes ي as in § 266, thus
 <lb/>مِيثَاق a covenant from وَثِقَ to trust.
-<pb n="65" TEIform="pb"/>
+<pb n="65"/>
 <lb/>229. We have already mentioned in § 80 the nomen agentis
 <lb/>and nomen patientis; they are deverbal adjectives often used as
 <lb/>substantives.
@@ -1647,7 +1616,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>2. حَسَن فَعَل good, beautiful.
 <lb/>3. أَسِف فَعِل afflicted, نَكِد churlish, صَعِق thunderstruck,
 <lb/>swooning.
-<pb n="66" TEIform="pb"/>
+<pb n="66"/>
 <lb/>11. ألِيم فَعِيل painful, بَصِير seeiny, حَكِيم wise, حَلِيم
 <lb/>clement, خَبِير well acquainted, سَرِيع prompt,
 <lb/>عَزِيز powerful, قَدِير able, أَمِين trustworthy,
@@ -1661,7 +1630,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>NOTE 1. We use No 16 to express colours and defects.
 <lb/>REM. c. When derived from transitive verbs فَعِيل may have
 <lb/>a passive sense; as حَثيِث urged on, swift, حَقِيق fitting, حَمِيد
-<lb/>praiseworthy, شَدِيد severe, قَتِيل slain, treated with ku&hdot;l.
+<lb/>praiseworthy, شَدِيد severe, قَتِيل slain, treated with ku[hdot]l.
 <lb/>NOTE. 2. Much of the Corân is almost in the nature of
 <lb/>rhymed prose, wherein ون may rhyme with ور ين with
 <lb/>ير etc., but the rules are more lax than in classical rhyme
@@ -1673,7 +1642,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>* Specimens of rhymed prose are to be found at pp. 168 to 181 of
 <lb/>“Wright's Reading book ” which I hope to reproduce as Elementary Arabic:
 <lb/>Third reading book.
-<pb n="67" TEIform="pb"/>
+<pb n="67"/>
 <lb/>فَاسِقِين impious, قَاهِرُون subduers, نَاظِرِين beholders, and the like.
 <lb/>233. Adjectives of form فَعَّال are intensive, as from سَائِل
 <lb/>asking we have سَئَّال importunate, a beggar.
@@ -1698,7 +1667,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>IV. مُهْلِك destroyer, مُمْكِن possible, مُجْرِم guilty, مُحْسِن
 <lb/>well-doer, مُصْلِح one who puts to rights, مُفْسِد
 <lb/>transgressor, مُفْلِح prosperous.
-<pb n="68" TEIform="pb"/>
+<pb n="68"/>
 <lb/>V مُتَحَرك in motion.
 <lb/>VI مُتَشَابِه uniform, i. e. parts resembling part, مُتَقَابِل facing each other.
 <lb/>VII مُنْقَلِب one who reverts.
@@ -1722,7 +1691,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>not مُؤْمِن بَإِس believer not مُؤَنَّث feminine.
 <lb/>239. Adjectives from verbs with ي و as initial radical
 <lb/>observe §§ 147 and 148, thus مُتَّصل joined.
-<pb n="69" TEIform="pb"/>
+<pb n="69"/>
 <lb/>REM. a. Preceded by kasraħ أ becomes ئ as قَارِئ reader
 <lb/>not قَارِأ.
 <lb/>240. Nomina agentis from verbs of the first form with و or ي
@@ -1733,7 +1702,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>as middle radical, in case of و elide it and throw back its
 <lb/>vowel to the first radical; thus مَخُوف to be feared for مَخْوُوف
 <lb/>but in case of ي itsf elision must be marked by substituting
-<lb/>kasraħ for &ddot;ammaħ, and then و of prolongation becomes ي
+<lb/>kasraħ for [ddot]ammaħ, and then و of prolongation becomes ي
 <lb/>thus مَدِين one who receives recompense for مَدْيُون
 <lb/>REM. Sometimes we find an uncontracted form, as مَدْيُون
 <lb/>a debtor.
@@ -1748,7 +1717,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>from خَارَ to choose and means to be chosen whence the elative
 <lb/>خَيْر مِن choosable rather than, better than: its opposite شَر bad,
 <lb/>worse in also used as elative.
-<pb n="70" TEIform="pb"/>
+<pb n="70"/>
 <lb/>NOTE 2. We may consider بَيِنّة and سَيِئَة (see § 196, No. 38)
 <lb/>as substantives derived from the adjectives بَيِن and سَيِء
 <lb/>243. Adjectives from the derived form of verbs with و or
@@ -1767,13 +1736,13 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>form فَعُول and فَعِيل thus عَدُو hostile, an enemy for عَدُوو
 <lb/>عَلِي high, sublime for غَنِي عَلِيو rich, self-sufficing for غَنِيي
 <lb/>NOTE. In the Corân عَدُو is sometimes a collective noun.
-<lb/>245. Adjectives, whose second radical bears fat&sdot;aħ, from
+<lb/>245. Adjectives, whose second radical bears fat[sdot	]aħ, from
 <lb/>verbs with و ي (which we now write ي) as final radical,
 <lb/>reject their final vowel.
 <lb/>(a) If triptote (see § 308) tanwîn is transferred to the second
 <lb/>radical (compare § 212 b); thus مُعْطًى given nomen patientis IV
 <lb/>of عَطَا dual, مُعْطَو مُسْتَثْنىً مُثَنًّىan exception.
-<pb n="71" TEIform="pb"/>
+<pb n="71"/>
 <lb/>(b) If diptote there is only the vowel to reject; thus أَرْضَى
 <lb/>better or best pleased for أَرْضَوُ.
 <lb/>246. Nomina unitatis nouns of individuality, which specify one
@@ -1797,7 +1766,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>250. But the derivatives cannot always be formed so simply:
 <lb/>certain terminations are rejected, and other changes arise. Thus
 <lb/>مَكَّةُ Mecca أُمَّة مَكِّي (see § 198, No. 12) illiterate, اَلْمَدِينَةُ
-<pb n="72" TEIform="pb"/>
+<pb n="72"/>
 <lb/>Medina مَدَنِي the Moslems لَفْظَة مُسْلِمِي a word
 <lb/>مَعْنًى لَفْظِيّ signification حَقِيقَة مَعْنَويّ reality حَقِيقِي and the
 <lb/>Prophet's tribe قُرَيْش makes قُرَشِيّ
@@ -1821,7 +1790,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>292. Many are said to be masculine by form and feminine by
 <lb/>signification : together with others, these are of common gender;
 <lb/>thus,
-<pb n="73" TEIform="pb"/>
+<pb n="73"/>
 <lb/>(a) Collective nouns which form nomina unitatis (see § 246)
 <lb/>chiefly denoting animals and plants: but سَلْوَى quail is usually
 <lb/>masculine.
@@ -1844,7 +1813,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>294. The most usual termination is ة thus, آخِر (for
 <lb/>أَاخِر latter, last حَاضِر present قِرد حَاضِرة monkey قِرْدَة she-
 <lb/>monkey, مَكِي Meccan مَكِيَّة.
-<pb n="74" TEIform="pb"/>
+<pb n="74"/>
 <lb/>REM. a A dropped radical may be replaced, as سَموَة from
 <lb/>سَمَآء heaven (see § 212 d) : but مُصْطَفَاة (for مُصْطَفَيَة) from
 <lb/>مُصْطَفًى chosen.
@@ -1869,7 +1838,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>297. All adjectives do not invariably employ their feminine
 <lb/>forms, and some few have none. Only let the meaning be clear
 <lb/>and there may be a laxity as regards form: thus,
-<pb n="75" TEIform="pb"/>
+<pb n="75"/>
 <lb/>(a) فَعُول is of both genders when active in signification and
 <lb/>attached to a singular substantive, as رَجُل شَكُور a grateful man
 <lb/>and اِمْرَأَة شَكُور a grateful woman; also when active in meaning
@@ -1887,14 +1856,14 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>attached to a singular substantive, as اِمْرَأَة قَتِيل a slain woman;
 <lb/>also when passive in meaning and predicate to a substantive or
 <lb/>pronoun in the singular, as هِيَ حَثِيث she is swift, الْعَيْنُ كَحِيل
-<lb/>the eye is treated with ku&hdot;l. But if no substantive or pronoun be
+<lb/>the eye is treated with ku[hdot]l. But if no substantive or pronoun be
 <lb/>expressed we must, in order to make our meaning clear, employ
 <lb/>فَعِيلَة as رَأَيْتُ قَتِيلَةً I saw a slain woman : also this is required
 <lb/>when the adjectives is active by signification; whether transitive,
 <lb/>as امْرَأَة عَليمَة a skilful woman, عَجُوز خَبيرَة an experienced old
 <lb/>woman; or intransitive, as رِيح عَزِيزَة a powerful wind.
 <lb/>REM. Exceptions are to be found in either case; as
-<pb n="76" TEIform="pb"/>
+<pb n="76"/>
 <lb/>هذَهِ الْفِعْلَةُ حَمِيدَة this way of acting is praiseworthy, and on
 <lb/>the other hand رَحْمَةُ اللهِ قَرِيب the mercy of God is near.
 <lb/>(c) Similar peculiarities are to be remarked in certain others.
@@ -1916,14 +1885,14 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>sanus, the sound or perfect plural.
 <lb/>(b) That which, having various forms, is called pluralis
 <lb/>fractus, the broken plural; being more or less altered from the singular.
-<pb n="77" TEIform="pb"/>
+<pb n="77"/>
 <lb/>301. The sound plural of masculine nouns is formed by
 <lb/>adding ونَ to the singular (see § 308), as قَاهِر a conqueror
 <lb/>عَابِد قَاهِرُونَ a worshipper عَابِدُونَ The sound plural of
 <lb/>feminine nouns is formed by writing ات for ة when they
 <lb/>have that termination in the singular, or when without it by
 <lb/>adding ات as حَسَنَة a boon ثَمَرَة حَسَنَات a fruit ثَمَرَات
-<lb/>طَيّبَة good رَمَضانُ طَيبات the month of rama&ddot;ân رَمَضَانَات
+<lb/>طَيّبَة good رَمَضانُ طَيبات the month of rama[ddot]ân رَمَضَانَات
 <lb/>REM. a. If the singular ends in 'alif maqçûraħ (see § 7,
 <lb/>rem. b) with or without tanwîn (see § 245), as مُصْطَفًى chosen
 <lb/>for أَعْلَى مُصْطَفَى higher, highest for أَعْلَىُ; or in kasraħ with
@@ -1941,7 +1910,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>عَمٍ see § 314, rem. a. Of feminines we may note غَضْبَى angry
 <lb/>اَلْكُبْرَى غَضْبَيَات the greatest الْكُبْرَيَاتُ (see § 303 b.).
 <lb/>REM. b. Feminine substantives with sukûn to the middle
-<pb n="78" TEIform="pb"/>
+<pb n="78"/>
 <lb/>radical may undergo change; as أَرض earth قَريَة أَرَضَات a village قَرَيَات
 <lb/>REM. c. A final radical dropped as in § 212 c must reappear;
 <lb/>thus صَلاَة prayer صَلَوَات (feminine of مُصْطَفى) chosen
@@ -1967,7 +1936,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>REM. a. It must be SPECIALLY NOTED that adjectives have
 <lb/>the sound plural masculine only when joined to substantives,
 <lb/>expressed or understood, denoting rational creatures.
-<pb n="79" TEIform="pb"/>
+<pb n="79"/>
 <lb/>REM. b. From substantives and adjectives that have the
 <lb/>sound plural masculine there may be formed a broken plural,
 <lb/>especially from adjectives used substantively.
@@ -1993,7 +1962,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>فَعَل 28. فَعْلَى 22. فَوَاعِل 16. فُعَلَة 10. فُعُل 4.
 <lb/>فَعْل 29. فَعَال 23. فَعَائِلُ 17. فِعَلَة 11. فِعَال 5.
 <lb/> فَعَالَى 24. فِعْلاَن 18. فِعْلَة 12. فُعُول 6.
-<pb n="80" TEIform="pb"/>
+<pb n="80"/>
 <lb/>In the next table an example of, at least, one noun (substantive
 <lb/>or adjectives) appears to each plural, but space forbids us to
 <lb/>attempt illustrating each singular form.
@@ -2015,7 +1984,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>REM. نِسَآء is plural of امْرَأَة a woman (see § 305, rem. e.).
 <lb/>فَاعِل فَعَلَة فُعْلَة فِعْلَة فَعْلَة فَعِل فَعَل فُعْل فِعْل فَعْل فُعُول as
 <lb/>صَدْر breast رَاس صُدُور head حَلْي رُءُوس رَأس صُدُور an ornament حُلِي
-<pb n="81" TEIform="pb"/>
+<pb n="81"/>
 <lb/>(for حُلُوي) نَجْم star فَلْس نُجُوم a copper coin فُلُوس
 <lb/>شَكْل form, figure حَرْف شُكُول letter (of the alphabet),
 <lb/>particle نَفْس حُرُوف soul, self ذَكَر نُفُوس a male ذُكُور
@@ -2036,7 +2005,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>feminine quadriliterals, as
 <lb/>نَفْس soul, self فَلْس أَنْفُس a copper coin يَد أَفْلُس (for
 <lb/>يَدْي) hand أَيْدٍ (for أَيْدُي) رِجْل leg, foot أَرْجُل
-<pb n="82" TEIform="pb"/>
+<pb n="82"/>
 <lb/>14. أَفْعَال plural of فَعِيل فَاعِل and triliterals of all forms, as
 <lb/>عُرْف uppermost part, forelock, cock's comb نَهْر أَعْرَاف river
 <lb/>أَلف أَنْهَار thousand صَنَم آلاَف idol ابن أصْنَام (for بَنَى)
@@ -2055,7 +2024,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>17. فَعَائِلُ plural of some feminine quadriliterals, with or without
 <lb/>ة in addition, as
 <lb/>مَدِينَة a city خَبيثَة مَدَائِنُ foul خَبَائِث noble كَرآئِمُ
-<pb n="83" TEIform="pb"/>
+<pb n="83"/>
 <lb/>18. فعُلان plural of فِعْل فِعُل فَعَال فُعَال فَعَل فُعْل
 <lb/>فَاعِل فَعَلان فُعَيْلَة فُعَيْل فَعُول فَعِيل as
 <lb/>حُوت a fish أخ حِيتَان a brother أخو
@@ -2078,7 +2047,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>زَوَايَا (for زَوَايَى as in § 179, rem a).
 <lb/>25. فَعِيل plural of فَاعِل فِعَال فَعَل فِعْل as
 <lb/>حِمار an ass حَمِير
-<pb n="84" TEIform="pb"/>
+<pb n="84"/>
 <lb/>26. فُعُولَة plural of فَعَل فَعْل as
 <lb/>بَعْل a husband بَعُولَة
 <lb/>27. فِعَالَة plural of فَاعِل فَعَل فَعْل as
@@ -2103,7 +2072,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>1. فَعَائِلُ plural of quadriliterals, with or without ة in addition,
 <lb/>(a) whose four consonants are radical, and (b) formed
 <lb/>from triliteral roots by prefixing م ت as
-<pb n="85" TEIform="pb"/>
+<pb n="85"/>
 <lb/>ضِفدِع a frog مَشْرِق ضَفَادِع the east مَغْرِب مَشَارِقُ the west
 <lb/>مَنَارَة مَغَارِب candlestick, minaret مَنَاوِر and مَنآئِرُ (compare
 <lb/>§ 240) vulg. مَصْدَر مَنَايِر source مَكْتَب مَصَادِرُ school مَكَاتِبُ
@@ -2128,7 +2097,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>so take them.
 <lb/>REM. Beside broken plurals there are the two sorts of collectives
 <lb/>which have been mentioned in § 292 a and b:
-<pb n="86" TEIform="pb"/>
+<pb n="86"/>
 <lb/>(a) generic nouns (أَسْمَآءُ الجِنْسِ) which form nomina unitatis
 <lb/>(see § 246); and
 <lb/>(b) nouns to which attaches the idea of collectiveness (أَسْمَآءُ
@@ -2154,7 +2123,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>state (see § 313) by means of فَلْس a copper coin, لَيْلَة a night,
 <lb/>نُجُوم stars (br. pl. 6 of نَجْم), مُلْكَانِ two dominions, حَسَنَتَانِ
 <lb/>two boons, خَالِدُونَ dwellers, طَيِّبَات good things, أَحْسَنُ better,
-<pb n="87" TEIform="pb"/>
+<pb n="87"/>
 <lb/>بَيْضَآءُ (fem.) white, تَوَابَعُ followers (br. pl. 16 of تَابِع). Nouns
 <lb/>ending with ة whether broken plural or singular, make the
 <lb/>accusative differently (see § 8, rem. a) from other triptotes, i.e.
@@ -2179,7 +2148,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>Masc. Sing. Fem. sing. Broken pl.
 <lb/>Nominative أَحْسَنُ بَيْضَاء تَوَابِعُ
 <lb/>Oblique أَحْسَنَ بَيْضَآءَ تَوَابَعَ
-<pb n="88" TEIform="pb"/>
+<pb n="88"/>
 <lb/>In the dual diptotes and triptotes are alike, thus Nom. أَحْسَنَانِ
 <lb/>Obl. أَحْسَنَيْنِ and so in the sound plural.
 <lb/>NOTE. For declension of جَوَارٍ see § 312.
@@ -2206,7 +2175,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>for هُدًى هُدَيًا هُدَيٍ هُدَي guidance
 <lb/>Similarly we leave unchanged nouns ending in ي (see § 309)
 <lb/>such as غضْبَى (fem.) angry, أَدْنَى nearer, مُوسَى Moses.
-<pb n="89" TEIform="pb"/>
+<pb n="89"/>
 <lb/>311. With nouns ending in ٍ (for و or ي see
 <lb/>§ 167 (ii) and § 369, Table 18) it is somewhat different, for we write
 <lb/>دَاعِيًا a preacher as the Accusative of دَاعٍ i. e. دَاعوٍ
@@ -2229,7 +2198,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>pronouns هُوَ he etc. and words like ذَا this, that (see §§ 340 et seq.).
 <lb/>NOTE. A noun cannot have two determinatives; thus الأَعْرَافُ
 <lb/>the uppermost parts and أَعْرَافُ الْحِجَابِ the uppermost parts of the partition.
-<pb n="90" TEIform="pb"/>
+<pb n="90"/>
 <lb/>314. When a noun is defined by the article, the following cases arise.
 <lb/>(a) If it be triptote it loses the tanwîn; thus
 <lb/>Nominative الفَلْسُ اللَّيْلَةُ النُّجُومُ
@@ -2252,7 +2221,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>§ 310) merely lose the tanwîn, as الْهُدَى اَلْعَصَا
 <lb/>315. The following cases arise when a noun is in construct
 <lb/>state, i. e. when it is مَضَاف annexed to a noun in the dependent case.
-<pb n="91" TEIform="pb"/>
+<pb n="91"/>
 <lb/>(a) We decline singulars and broken plurals as if defined by
 <lb/>the article; thus
 <lb/>Nom. طُلاَّبُ الْعِلْمِ the seekers of knowledge. مَشَارِقُ الأَرْضِ the eastern parts of the earth.
@@ -2274,7 +2243,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>يَدْهَا her hand from عَصَاهُ يَد his stick from كَلِمَاتُنَا our
 <lb/>words from يَدَيَّ كَلِمَات my two hands يَدَيْكَ thy two hands from
 <lb/>بَالِغُوهُ يَدَيْنِ the attainers of it from بَالِغُونَ
-<pb n="92" TEIform="pb"/>
+<pb n="92"/>
 <lb/>NOTE. In the Nominative and Dependent we have َيْدِينَا our
 <lb/>hands and in the Accusative أَيْدِيًا أَيْدٍ أيْدِيَنَا
 <lb/>(b) The singulars, broken plurals, and feminine sound plurals
@@ -2300,7 +2269,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>becomes يَ my stick; and in most cases, together with
 <lb/>the final letter, it becomes عَلَيَ يَّ upon me (see § 358, rem. a).
 <lb/>On أَخ etc. see § 316, rem.
-<pb n="93" TEIform="pb"/>
+<pb n="93"/>
 <lb/>REM. b. Like نِي we find ي especially in the vocative,
 <lb/>shortened to يَا قَوْمِ O my people for رَبِ قَوْمِي (O) my
 <lb/>Lord for رَبّي (see § 438 a, rem. b).
@@ -2331,7 +2300,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>320. Excepting the duals ثِنْتَانِ اثْنَتَانِ اِثْنَانِ
 <lb/>cardinal numbers from 1 to 10 are triptote; ثَمَانٍ standing for
 <lb/>ثَمَانِي (see § 311) Accusative ثَمَانِيًا.
-<pb n="94" TEIform="pb"/>
+<pb n="94"/>
 <lb/>321. Cardinal numbers from 3 to 10 are substantives : either
 <lb/>(a) they follow the objects numbered and stand in apposition, as
 <lb/>رِجَالٍ ثَلاَثَةٍ of three men i. e. of men, a triad; or (b) they are
@@ -2361,7 +2330,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>اِثْنَيْ غَشَرَ and اِثْنَتَيْ ثِنْتَيْ عَشْرَةَ
 <lb/>REM. d. Since long ago these compound numerals suffered
 <lb/>contraction into one word, and are further corrupted in colloquial dialects.
-<pb n="95" TEIform="pb"/>
+<pb n="95"/>
 <lb/>323. The cardinal numbers from twenty to ninety are:
 <lb/>ثَمَانُونَ 80 سِتُّون 60 أَرْبَعُونَ 40 عِشْرُونَ 20
 <lb/>تِسْعُون 90 سَبْعُون 70 خَمْسُونَ50 ثَلاَثُونَ 30
@@ -2385,7 +2354,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>328. The ordinal numbers are adjectives; thus, masc. الأَوَّلُ
 <lb/>fem. الأُولَى the first, masc. ثَانِيَة ثَانٍ second, masc. ثَالِت
 <lb/>fem. ثَالِثَة third, masc. رَابِع fourth, etc.
-<pb n="96" TEIform="pb"/>
+<pb n="96"/>
 <lb/>REM. a. The radinal letters of اَلْأَوَّلُ (see § 295, rem. b) and
 <lb/>اَلْأُولَى (for اَلْأُوْلَى or اَلْوُؤْلَى) are أول or وأل. These words have
 <lb/>plurals, and will be further treated in § 486, rem. a, and § 493.
@@ -2410,7 +2379,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>ذَاكُمَا etc. The plurals أُلاَكَ and أُلَآئِكَ and أُولاَئِكَ with short
 <lb/>first syllable, those are of common gender.
 <lb/>(ii) Similarly ذلِكَ ذَالِكَ that is used in conjunction with
-<pb n="97" TEIform="pb"/>
+<pb n="97"/>
 <lb/>pronominal suffixes of the second person; thus فِي ذَلِكُمْ therein
 <lb/>O you.
 <lb/>REM. By prefixing كَذلِكَ ذَلِكَ كَ in like
@@ -2437,7 +2406,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>إِذَا جَآءَتْهُمُ الْحَسَنَةُ whenever a boon comes to them.
 <lb/>NOTE. Arabic and some other languages are more regular
 <lb/>than English in respect of the generic article, for one says “Man
-<pb n="98" TEIform="pb"/>
+<pb n="98"/>
 <lb/>is mortal” but “The horse is a quadruped,” whereas in these
 <lb/>cases we must write اَلْإِنسَانُ l'homme and الْفَرَسُ le cheval (see
 <lb/>§ 527).
@@ -2463,7 +2432,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>مَعَهُ Moses and those who (are) with him; while the latter is used
 <lb/>of all other objects, as بِمَا فَعَلَ by reason of that which he has
 <lb/>done. Unlike اَلَّذِي these words can never be used adjectivally.
-<pb n="99" TEIform="pb"/>
+<pb n="99"/>
 <lb/>351. All conjunctive pronouns may be interrogative except
 <lb/>مَنْ أَنْتِ اَلَّذِي who art thou? مَا فَعَلَ what has he done?
 <lb/>see §570.
@@ -2472,7 +2441,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>So also كَمَا the like of what? becomes كَمْ how much?
 <lb/>353*. The pronouns مَا مَنْ are sometimes indefinite. Of
 <lb/>this sort is مَا الْمَصْدَرِيَّةُ the mâ which introduces a clause equivalent
-<lb/>to a ma&cdotdar (see §§ 488 and 514); thus مِنْ بَعْدِ مَا جِئْتَ
+<lb/>to a maċdar (see §§ 488 and 514); thus مِنْ بَعْدِ مَا جِئْتَ
 <lb/>after that thous camest which is equivalent to مَنْ بَعْدِ مَجِيئكَ
 <lb/>after thy coming. We find the indefinite مَا in conditional clauses
 <lb/>مَا الشَّرْطِيَّة § 406), also in reference to time مَا الدَّيْمُومَةِ §§ 367 p
@@ -2489,7 +2458,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>355. The prepositions are divided into separable, i. e. those
 <lb/>written as separate words, and inseparable, i. e. those which are
 <lb/>united in writing with the following word.
-<pb n="100" TEIform="pb"/>
+<pb n="100"/>
 <lb/>356. The inseparable prepositions consist of one consonant
 <lb/>with its vowel. They are : —
 <lb/>(a) بِ by, by means of, by reason of, for the reason, in, on, with,
@@ -2515,7 +2484,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>(e) فِي in, into, over, among, upon, on, concerning, treating of,
 <lb/>see § 455.
 <lb/>(f) لَدَى لَدُنْ with, beside, near.
-<pb n="101" TEIform="pb"/>
+<pb n="101"/>
 <lb/>(g) مَعْ with, along with, see § 457.
 <lb/>(h) مِنْ of, to, from, on, out of, see § 20 d and § 448.
 <lb/>(i) مُذْ مُنْذُ from a certain time, since.
@@ -2540,7 +2509,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>361. The inseparable adverbial particles are :—
 <lb/>(a) أَ interrogative, see § 566.
 <lb/>REM. When this أَ is followed by إِ we use ي instead of ا
-<pb n="102" TEIform="pb"/>
+<pb n="102"/>
 <lb/>as 'imâd (see § 16) to hamzaћ and write the two thus أَيِ as
 <lb/>أَئِنَّ لَنَا لَأَجْرًا shall there indeed be to us a reward ?
 <lb/>(b) سَ (abbreviation of سَوْفَ see § 364 e) prefixed to a verb in
@@ -2566,7 +2535,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>a predicate with لَ (see § 361 c) as إنَّ هذَا لَسَاحِر عَلِيم
 <lb/>verily this (man) is a skilled magician. For government
 <lb/>by إَنَّ see § 436.
-<pb n="103" TEIform="pb"/>
+<pb n="103"/>
 <lb/>(n) إِنَّمَا only, see § 436, rem. d, and § 585.
 <lb/>(q) إِي yes, yea; used with an oath, as إِي وَاللهِ yes by God,
 <lb/>whence the vulgar أَيْوَا and in Nubia أَيْوَلْ for which at
@@ -2592,7 +2561,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>may write لِكنَّا لكِنِّي as well as لكِنَّنَا لكِنَّنِي
 <lb/>(ff) لَمْ not is used solely with the jussive which is then perfect
 <lb/>in sense, see §§ 412 and 418.
-<pb n="104" TEIform="pb"/>
+<pb n="104"/>
 <lb/>(gg) لَمَا not yet, joined to the jussive.
 <lb/>(hh) لَنْ not a contraction of لاَ أَنْ (i. e. لَا يَكُونُ أَنْ it will not be
 <lb/>that) is followed by the subjunctive, see §§ 411, 415 a i,
@@ -2617,7 +2586,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>futurity, see §§ 361 b, 408 c, and 587 d.
 <lb/>(g) كَيْفَ how?
 <lb/>REM. b. For لَعَلَّ see §§ 436, rem. f, and 442, rem. g (2).
-<pb n="105" TEIform="pb"/>
+<pb n="105"/>
 <lb/>365. The conjunctions, like prepositions and adverbs, are
 <lb/>some inseparable and some separable.
 <lb/>366. The inseparable conjunction are :—
@@ -2643,7 +2612,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>(see § 415 a ii) : it is used after certain prepositions
 <lb/>(see §§ 470, rem. f, and 488). Notice must here be taken
 <lb/>of أَنِ الْمُفَسِرَةُ the explicative 'an, which introduces a
-<pb n="106" TEIform="pb"/>
+<pb n="106"/>
 <lb/>quotation, as أَوْحَيْنَا إِلَى مُوسَى أَنْ أَلْقِ عَصَاكَ We revealed
 <lb/>to Moses (saying) Throw down thy rod.
 <lb/>(f) إِنْ if called إِنِ الشَّرْطِيَّةُ the conditional 'in, see §§ 406 b,
@@ -2668,7 +2637,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>* The apodosis of a sentence is the consequent clause, which expresses
 <lb/>a result; as distinguished from the precedent clause, called protasis, which
 <lb/>is conditional.
-<pb n="107" TEIform="pb"/>
+<pb n="107"/>
 <lb/>(h) أَوْ or as حَاشِر أَوْ خَاسِر a gatherer or a loser.
 <lb/>(i) ثُمَّ then, and then, implying succession at an interval.
 <lb/>(k) حَتَّى till, see §§ 405, rem. c, 415 c, and 452, rem. c. Beside
@@ -2693,7 +2662,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>yaklimu taklimu taklimu taklimîna 'aklimu
 <lb/>yaklimâni taklimâni taklimâni
 <lb/>yaklimûna yaklimna taklimûna taklimna naklimu
-<pb n="108" TEIform="pb"/>
+<pb n="108"/>
 <lb/>Also to be found in Table 1 are قَتَلَ to kill; جَمَعَ to collect
 <lb/>خَسِرَ to lose; and سَرُعَ to be quick.
 <lb/>Table 3 gives كَلَّمَ to wound much and to address, accost;
@@ -2715,7 +2684,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>سَأَلَ to interrogate; رَأسَ to appoint as chief; لَآْمَ to reconcile;
 <lb/>أَلاكَ to send; تَرَأس to become chief; تَبَآءسَ to feign poverty;
 <lb/>انْجَأَثَ to split itself; ابُتَأَسَ to abase oneself; اسْتَقَامَ to deem unlucky.
-<pb n="109" TEIform="pb"/>
+<pb n="109"/>
 <lb/>Table 8 gives هَنَأ to be pleasant; ذَنُوَ to be mean;
 <lb/>قَرَأَ to read; خَطِئَ to do wrong; نَبَّأ to inform; قَارَأَ to read
 <lb/>together with, teach mutually; أَقْرَأَ to teach one to read or recite;
@@ -2739,9 +2708,9 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>oneself; اِنْجَلَى to be cleared away; اِهْتَدَى to be directed aright;
 <lb/>اِسْتَسْقَى to ask for drink.
 <lb/>Concerning the vocalization of Derived Forms, it may be
-<lb/>helpful to not that, in the perfect active, fat&hdot;aћ is characteristic
+<lb/>helpful to not that, in the perfect active, fat[hdot]aћ is characteristic
 <lb/>vowel of all: but in the imperfect active we find (except for IV
-<pb n="110" TEIform="pb"/>
+<pb n="110"/>
 <lb/>having sukûn to the first radical) in Forms II III and IV
 <lb/>U A I يُسُلِم يُقَاتِل يُكَلِّم
 <lb/>in Forms V and VI
@@ -2754,7 +2723,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>U A A as يُسْلَم يُقَاتَل يُكَلَّم etc.
 <lb/>NOTE. Namina verbi are treated in §§ 195 to 212; while
 <lb/>nomina agentis et patientis find place in §§ 229, 230. 236 sqq.
-< pb n="111">
+<pb n="111"/>
 <lb/>First From of the Strong Verb. 
 <lb/>Table 1. Active
 <lb/>Imperfect Perfect
@@ -2771,7 +2740,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>m. 2 كَلَمْتُمْ تَكْلِمُونَ تَكْلِمُوا تَكْلِمُوا تَكْلِمُوا تَكْلِمُنَّ 
 <lb/>f. كَلَمْتُنَّ تَكْلِمْنَ تَكْلِمْنَ تَكْلِمْنَ تَكْلِمْنَانِ 
 <lb/>C. I كَلَمْنَا نَكْلِمُ نَكْلِمَ نَكْلَمْ نَكْلِمَنَّ 
-< pb n="112">
+<pb n="112"/>
 <lb/>Imperative
 <lb/>Feminine Common Masculine
 <lb/>2. Singular اِكْلِمْ 
@@ -2790,7 +2759,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>m. 2 خَسِرْتَ تَخْسَرُ اِخْسَرْ 
 <lb/>m. 3. Singular سَرُع يَسْوَعُ 
 <lb/>m. 2. سَرُعْتَ تَسْرُعُ اُسْرُعْ 
-<pb n="113" TEIform="pb"/>
+<pb n="113"/>
 <lb/>First Form of the Strong Verb. 
 <lb/>Table 2. Passive.
 <lb/>Imperfect Perfect.
@@ -2808,7 +2777,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>m. 2 كُلِمْتُهمْ تُكْلَمُونَ تُكلَمُوا تُكْلَمُوا تُكْلَمُنَّ 
 <lb/>f. كُلِمْتُنَّ تُكْلَمْنَ تُكْلَمْنَ تُكلَمْنَ تُكْلَمْنَانِّ
 <lb/>c. 1. كُلِمْنَا نُكْلَمُ نُكْلَمَ نُكْلَمْ نُكلَمَنَّ 
-<pb n="114" TEIform="pb"/> 
+<pb n="114"/> 
 <lb/>Table 3. 
 <lb/>Passive Active
 <lb/>Indic. Perfect Impera. Indic. Perfect
@@ -2822,7 +2791,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>IX اِصْفَرَّ يَصْفَرُّ اِصْفَرِر 
 <lb/>X اِسْتَغْفَرَ يَسْتَغْفِرُ اِسْتَغْفِرْ اُسْتُغْفِرَ يُسْتَغْفَرُ 
 <lb/>XI اِصْفَارَّ يَصْفَارُّ اِصْفَارِرْ
-<pb n="115" TEIform="pb"/> 
+<pb n="115"/> 
 <lb/>First Form of The Verb With Middle 
 <lb/>Radical Doubled
 <lb/>Table 5. a. Active
@@ -2841,7 +2810,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>m. 2. مَدَدْتُمْ تَمُدُّونَ تَمُدُّوا تَمُدُّوا تَمُدُّونَّ
 <lb/>f. مَدَدُتُنَّ تَمْدُدْنَ تَمْدُدْنَ تَمْدُدْنَ تَمْدُدْنَانِّ
 <lb/>c. 1. مَدَدْنَا نَمُدُّ نَمُدَّ نَمْدُدْ نَمُدَّنَّ
-<pb n="116" TEIform="pb"/> 
+<pb n="116"/> 
 <lb/>Table 5. a.
 <lb/>Imperative.
 <lb/>Feminine Common Masculine
@@ -2864,7 +2833,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/> مَسِسْتَ تَمْسَُسْ تَمَُسَّ أِمْسَُسْ مَُسَّ
 <lb/>m. 2. تَمَُسُّ
 <lb/> مِسْتَ تَمَُسِّ تَمُسُّ مَُسِّ مُسُّ
-<pb n="117" TEIform="pb"/> 
+<pb n="117"/> 
 <lb/>Table 5 b. Passive.
 <lb/>Imperfect Perfect.
 <lb/>Energ. I Jussive. Subj. Indic.
@@ -2881,7 +2850,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>m. مُدِدْتُمْ تُمَدُّونَ تُمَدُّوا تُمَدُّوا تُمَدُّنَّ 
 <lb/>f. مُدِدْتُنَّ تُمْدَدْنَ تُمْدَدْنَ تَمدَدْنَ تُمْدَدْنَانِّ 
 <lb/>c. 1. مُدِدْنا نُمَدُّ نُمَدَّ نُمْدَدْ نُمَدَّنَّ
-<pb n="118" TEIform="pb"/> 
+<pb n="118"/> 
 <lb/>Derived forms of verbs with middle
 <lb/>Radical Doubled
 <lb/>Table 5. c.
@@ -2902,7 +2871,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/> اِمْتَدَ 
 <lb/>X اِسْتَمَدَّ يَسْتَمِدُّ اِسْتَمْدِدْ اُسْتُمِدَّ يُسْتَمَدُّ
 <lb/> اِسْتَمِدَّ
-<pb n="119" TEIform="pb"/> 
+<pb n="119"/> 
 <lb/>Verbs with initial Radical Hamzated
 <lb/>Table 6.
 <lb/>Passive Active.
@@ -2920,7 +2889,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>VIII اِيتَجَرَ يَأْتَجِرُ اِيتَجِرْ اُوتُجِرَ يُؤْتَجَرُ 
 <lb/> اِتَّجَرَ يَتَّجِرُ اِتَّجِرْ اُتُّجِرَ يُتَّجَرُ 
 <lb/>X اِسْتَأْذَنَ يَسْتأْذِنُ اِسْتُؤْذِنَ يُسْتَأْذَنُ 
-<pb n="120" TEIform="pb"/> 
+<pb n="120"/> 
 <lb/>Verbs with Middle Radical Hamzated
 <lb/>Table 7.
 <lb/>Passive Active.
@@ -2954,7 +2923,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>VII اِنْسَبَأَ يَنْسَبِئُ اِنْسَبِئْ اُنْسُبِئَ يُنْسَبَأُ 
 <lb/>VIII اِهْتَنَأَ يَهْتَنِئُ اِهْتَنِئْ اُهْتُنِئَ اُهْتُنِئَ يُهْتَنَأُ 
 <lb/>X اِسْتَقْرَأَ يَسْتَقْرِئُ اِسْتَقْرِئْ اُسْتُقْرِئَ يُسْتَقْرَأُ
-<pb n="122" TEIform="pb"/> 
+<pb n="122"/> 
 <lb/>Verbs with , or  As Initial Radical.
 <lb/>Table 9.
 <lb/>Passive Active.
@@ -2971,7 +2940,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>اِسْتَيْسَرَ يَسْتَيْسِرُ اِسْتَيْسِرْ اُسْتُوسِرَ يُسْتَيْسَرُ 
 <lb/>Forms II, III, V and VI Resemble Strong verbs, and VII is 
 <lb/>not found
-<pb n="123" TEIform="pb"/> 
+<pb n="123"/> 
 <lb/>As  و First From of the Verb Wit 
 <lb/>Middle radical
 <lb/>Table 10 Active
@@ -2990,7 +2959,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>m. 2. قُلُتُمْ تَقُولُونَ تَقُولُوا تَقُولُوا تَقُولُنَّ 
 <lb/>f. قُلْنُنَّ تُقْلْنَ تَقُلْنَ تَقْلْنَ تَقُلْنَانِّ
 <lb/>c. 1 قُلْنَا نَقُولُ نَقُولَ نَقُلْ نَقُولَنَّ
-<pb n="124" TEIform="pb"/> 
+<pb n="124"/> 
 <lb/>Table 10. (continued).
 <lb/>Imperative
 <lb/>Feminine Common Masculine
@@ -3008,7 +2977,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>2. Singular خَفْ خَافِي 
 <lb/>2. Dual خَافَا 
 <lb/>2. Plural خَافُوا خَفْنَ 
-<pb n="125" TEIform="pb"/> 
+<pb n="125"/> 
 <lb/>First Form of the Verb with
 <lb/>Middle Radical
 <lb/>Table 11. (continued from page 124.) Active. 
@@ -3027,7 +2996,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>m. 2. سِرْتُمْ تَسِيرُونَ تَسِيرُوا تَسِيرُوا تَسِيرَُّ 
 <lb/>f. سِرْتُنَّ تَسِرْنَ تَسْرنَ تَسِرْنَ تَسِرْنَانِّ 
 <lb/>c. 1. سِرْنَا نَسِيرُ نَسِيرَ نَسرْ نَسِيرَنَّ 
-<pb n="126" TEIform="pb"/> 
+<pb n="126"/> 
 <lb/>First Form of the verb with , Kasrated
 <lb/>As middle Radical.
 <lb/>Table 11. a. (continued from page 124). Active. 
@@ -3046,7 +3015,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>m. 2 خِفْتُمْ تَخَافُونَ تَخَافُوا تَخَافُوا تَخَافُنّ
 <lb/>f. خَفْتُنَّ تَخَفْنَ تَخَفْنَ تَخَفْنَ تَخَفْنَانِّ 
 <lb/>c. 1 خِفْنَا نَخَافُ نَخَافَ نَخَفْ نَخَافَنَّ 
-<pb n="127" TEIform="pb"/> 
+<pb n="127"/> 
 <lb/>First From of the verb with , or 
 <lb/>As Middle Radical
 <lb/>Table 12. Passive.
@@ -3065,7 +3034,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>m. 2. قِلْتُمْ تُقَالُونَ تُقَالُوا تُقَالُوا تُقَالُنَّ 
 <lb/>f. قِلْتُنَّ تُقَلْنَ تُقَلْنَ تُقَلْنَ تُقَلْنَانِّ
 <lb/>c. 1. قِلْنَا نُقَالُ نُقَالَ نُقَلْ نُقَالَنَّ 
-<pb n="128" TEIform="pb"/> 
+<pb n="128"/> 
 <lb/>Derived Forms of Verbs with  or 
 <lb/>As Middle Radical
 <lb/>Table 13.
@@ -3090,7 +3059,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>3. m. Sing. اِسْتَقَامَ 
 <lb/>X يَسْتَقِيمُ اِسْتَقِمْ اُسْتُقِيمَ تُسْتَقَامُ 
 <lb/>2. m اسْتَقَمْتَ 
-<pb n="129" TEIform="pb"/> 
+<pb n="129"/> 
 <lb/>First Form of the Verb with  AS
 <lb/>Final Radical.
 <lb/>Table 14. Active.
@@ -3109,7 +3078,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>m. 2. رَجَوْتُمْ تَرْجُونَ تَرْجُوا تَرْجُوا تَرْجُنَّ
 <lb/>f. رَجَوْتُنَّ تَرْجُونَ تَرْجُونَ تَرْجُونَ تَرْجُونَانِّ
 <lb/>c. 1. رَجَوْنَا نَرْجُو نَرْجُوَ نَرْجُ نَرْجُوَنَّ 
-<pb n="130" TEIform="pb"/> 
+<pb n="130"/> 
 <lb/>Elementary Arabic:
 <lb/>Table 14 14. (Continued)
 <lb/>Imperative
@@ -3129,7 +3098,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>2. Singular اِرْضَ اِرْضَيْ
 <lb/>2. Dual اِرْضَيَا
 <lb/>2. Plural اِرْضَوْا اِرْضَيْنَ 
-<pb n="131" TEIform="pb"/> 
+<pb n="131"/> 
 <lb/>First Form of the Verb With  As
 <lb/>Final Radical
 <lb/>Table 15. (continued from page 130) Active.
@@ -3148,7 +3117,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>m. 2. هَدَيْتُمْ تَهْدُونَ تَهْدُوا تَهْدُوا تَهْدُنَّ
 <lb/>f. هَدَيْتُنَّ تَهْدِينَ تَهْدِينَ تَهْدِينَ تَهْدِينَانِّ
 <lb/>c. 1 هَدَيْنَا نَهْدِي نَهْدِي نَهْدِ نَهْدِيَنَّ
-<pb n="132" TEIform="pb"/> 
+<pb n="132"/> 
 <lb/>First Form of the Verb With Middle
 <lb/>Radical Kasrated And  or  As 
 <lb/>Final Radical
@@ -3168,7 +3137,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>m. 2. رَضِيتُمْ تَرْضُونَ تَرْضَوْا تَرْضَوْا تَرْضَوُنَّ 
 <lb/>f. رَضِيتُنَّ تَرْضَيْنَ تَرْضَيْنَ تَرْضَيْنَ تَرْضَيْنَانِّ
 <lb/>c. 1. رَضِينَا نَرْضَى نَرْضَى نَرْضَ نَرْضَيَنَّ
-<pb n="133" TEIform="pb"/> 
+<pb n="133"/> 
 <lb/>First Form of the Verb With  Or
 <lb/>As Final Radical
 <lb/>Table 17. Passive. 
@@ -3187,7 +3156,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>m. 2. رُجِيتُمْ تُرْجَوْنَ تُرْجَوْا تُرْجَوْا تُرْجَوُنَّ
 <lb/>f. رُجِيتُنَّ تُرْجَيْنَ تُرْجَيْنَ تُرْجَيْنَ تُرْجَيْنَانِّ
 <lb/>c. 1. رُجِينَا نُرْجَى نُرْجَى نُرْجَ نُرْجَيَنَّ 
-<pb n="134" TEIform="pb"/> 
+<pb n="134"/> 
 <lb/>Derived forms of Verbs with  or
 <lb/>As final radical
 <lb/>Table 18. 
@@ -3231,7 +3200,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>though future, is quite certain;
 <lb/>(f) something desired, as رَحِمَهُ اللهُ God have mercy upon
 <lb/>him, صَلى اللهُ عَلَيْهِ وَسَلَّمَ God bless him and grant him peace.
-<pb n="136" TEIform="pb"/>
+<pb n="136"/>
 <lb/>REM. Europeans translate تَبَارَكَ اللهُ رَبَّ العالَمِينَ blessed be
 <lb/>God the Lord of all creatures, but the verb is declarative (see § 50, rem. a).
 <lb/>402. The perfect is often preceded by قَدْ (see § 362 z) to add
@@ -3256,7 +3225,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>(c) by كَانَ to be prefixed to the perfect;
 <lb/>* A relative or conjunctive clause is one coupled to its ruling clause
 <lb/>by a relative pronoun or connective particle.
-<pb n="137" TEIform="pb"/>
+<pb n="137"/>
 <lb/>(d) by كَانَ and the perfect, with قَدْ interposed, or prefixed.
 <lb/>404. (a) when two correlative clauses follow لَوْ if (see §§ 3670
 <lb/>and 588) or any similar hypothetical particle, perfect verbs in
@@ -3283,7 +3252,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>شُحَّ نَفْسِهِ whoever is made to guard against his own covetousness,
 <lb/>إِلاَّ مَا شَآءَ except what he wishes, كُلُوا حَيْثُ شِئْتُمْ eat wherever ye
 <lb/>wish. In certain cases this rule applies to أَوْ or.
-<pb n="138" TEIform="pb"/>
+<pb n="138"/>
 <lb/>(b) If the words إِنْ etc. be followed by two clauses, the first
 <lb/>expressing a condition and the second its result, both verbs may be perfect.
 <lb/>(c) If the perfect after إِنْ etc. is to keep its original sense,
@@ -3305,7 +3274,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>plants come forth by permission of its Lord:
 <lb/>(b) and incomplete act, commenced and continuing (the definite present);
 <lb/>as أَنْصَحُ لَكُمْ I counsel you:
-<pb n="139" TEIform="pb"/>
+<pb n="139"/>
 <lb/>(c) what will occur (the simple future), as كّذلِكَ نُخْرِجُ
 <lb/>الْمَوْتَى thus shall We bring forth the dead; اُذُْكُرْ يَوْمَ يَجْمَعُكُمْ
 <lb/>make mention of the day whereon He shall assemble you. The
@@ -3331,7 +3300,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>as to that (land) which is bad (its plants) do not come forth except
 <lb/>scantily. After مَا not it has the present sense (see § 557),as
 <lb/>مَا تَنْقِمُ مِنَّا thou dost not take vengeance on us.
-<pb n="140" TEIform="pb"/>
+<pb n="140"/>
 <lb/>409. By prefixing كَانَ to the imperfect indicative we point
 <lb/>out a past act which continued or was repeated; thus بَطَلَ مَا
 <lb/>كَانُوا يَعْمَلُونَ worthless was they were doing, الَّذِينَ كَانُوا
@@ -3357,7 +3326,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>who are with him; مَهْمَا تَأْتنَا به منْ آيَة لتَسْحَرَنَا بهَا whatever
 <lb/>sign thou bringest us in order that thou mayest bewitch us thereby.
 <lb/>When the first of two correlative clauses contains an imperartive,
-<pb n="141" TEIform="pb"/>
+<pb n="141"/>
 <lb/>and the second a jussive, the latter has the same meaning as if
 <lb/>the first clause contained a verb in the jussive preceded by إنْ
 <lb/>thus اُدْخُلُوا الْبَابَ نَغْفِرْ لَكُمْ خَطِيئَاتِكُمْ enter the gate (and) We
@@ -3382,7 +3351,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>the dead) : here أَنْ stands for أَنَّهُمْ and this is common when
 <lb/>the verb is negatived,as well as when the verb is strengthened]
 <lb/>with سَ قَدْ or سَوْفَ
-<pb n="142" TEIform="pb"/>
+<pb n="142"/>
 <lb/>ii. But if the ruling verb makes an assertion (without
 <lb/>expectation, wish, or the like) and the verb following أَنْ is to
 <lb/>express a past or present sense we use the perfect or imperfect
@@ -3409,7 +3378,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>but if no intention or expectation of the agent be implied, there
 <lb/>follows the indicative, or as in § 405, rem. c, the perfect.
 <lb/>(d) By فَ so that when it introduces a clause giving the
-<pb n="143" TEIform="pb"/>
+<pb n="143"/>
 <lb/>result or effect of a preceding clause which expresses a wish;
 <lb/>thus عَسَى رَبُّكُمْ أَنْ يَسْتَخلِفَكُمْ فِي الأَرْضِ فَيَنْظُرَ كَيْفَ تَعْمَلْونَ
 <lb/>your Lord may perhaps make you successors in the land, so that
@@ -3435,7 +3404,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>(b) With the adverb لاَ (see §362dd) we use it to express a
 <lb/>prohibition, or a wish that something be not done; as لاَ تُفْسِدْ do
 <lb/>not thou (masc.) commit disorders; لاَ تُشْمِتْ بِيَ الأَعْدَآءَ وَلاَ
-<pb n="144" TEIform="pb"/>
+<pb n="144"/>
 <lb/>تَجْعَلْنِي مَعَ الْقَوْمِ الظَّالِمِينَ do not thou make mine enemies to
 <lb/>rejoice at my trouble, and do not place me with the wrongdoers.
 <lb/>(c) i. Also we find jussives in the protasis and apodosis of
@@ -3462,7 +3431,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>introduced by ف is further treated in §587.
 <lb/>Rem. c. When (1) the apodosis has a jussive, connected with
 <lb/>a following imperfect by وَ فَ we usually employ the jussive
-<pb n="145" TEIform="pb"/>
+<pb n="145"/>
 <lb/>again; thus إِنْ تُقْرَضُوا اللهَ قَرْضًا حَسَنًا يُضَاعَفْهُ لَكُمْ ويَغفر لَكُم
 <lb/>if ye lend to God a fair loan, he will multiply it to you and
 <lb/>will pardon you: so when (2) the protasis has a jussive, connected
@@ -3488,7 +3457,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>بِمَا عَمِلْتُمْ say, On the contrary, by my Lord, ye shall be raised
 <lb/>(from the dead), then ye shall be informed of what ye have done.
 <lb/>(c) With لَ in the apodosis of correlative conditional clauses
-<pb n="146" TEIform="pb"/>
+<pb n="146"/>
 <lb/>in which case لَ must be prefixed to the protasis also, as
 <lb/>لَئِنْ لَمْ يَغْفِرْ لَنَا رَبَّنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ verily if our Lord
 <lb/>do not pardon us, we shall surely be of those who suffer loss.
@@ -3514,7 +3483,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>meaning, thus كَذَّبُوهُ they accused him of lying, and أَغْرَقْنَا الَّذِينَ
 <lb/>كَذَّبُوا بِآيَاتِنَا We drowned those who charged with falsehood Our
 <lb/>signs. More frequently a verb which governs in both ways has
-<pb n="147" TEIform="pb"/>
+<pb n="147"/>
 <lb/>different meanings, thus مَسَّكَهُ he perfumed it with musk, مَسَّكَ بِهِ
 <lb/>he held it fast; and diverse significations may attach to the same
 <lb/>verb if used with different prepositions, thus رَغِبَ to desire,
@@ -3541,7 +3510,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>to you, and what follows it is commonly a quotation, as قَالَ إِنَّكُمْ
 <lb/>قَوْم تَجْهَلُونَ he said, Certainly ye are an ignorant people. Very
 <lb/>sparingly, if at all, is it permitted to use قَالَ أَنَّ
-<pb n="148" TEIform="pb"/>
+<pb n="148"/>
 <lb/>424. Two objective complements in the accusative may
 <lb/>follow certain verbs, of which there are two sorts.
 <lb/>(a) Those whose objects are unconnected, they being causatives
@@ -3568,7 +3537,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>him mentioned (lit. written).
 <lb/>Rem. b. Verbs like رَأَى and وَجَدَ must also be reckoned
 <lb/>among أَفْعَالُ الْحَسِّ verbs of (the organs of) sense.
-<pb n="149" TEIform="pb"/>
+<pb n="149"/>
 <lb/>Rem. d. Three accusative are governed by أَفْعَالُ الْقَلْبِ in
 <lb/>their fourth form, as سَيُرِيكُمْ أَعْمَالَكُمْ he will make you
 <lb/>think your actions foul.
@@ -3594,7 +3563,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>complement in the accusative case, they can govern an accusative
 <lb/>instead of a dependent. This is especially the case if one or more
 <lb/>*Nomina vicis et speciei are treated in Wright's Grammar, vol. I. §§219, 220.
-<pb n="150" TEIform="pb"/>
+<pb n="150"/>
 <lb/>words divide an object from its governing infinitive, because a
 <lb/>dependent case cannot be separated from the word which governs
 <lb/>it. Also, when an infinitive is defined by the article, its object
@@ -3616,10 +3585,10 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>of a preposition, nomina agentis must govern in the same way.
 <lb/>Thus إِنَّا الَى رَبنا مُنقَلِبُونَ verily to our Lord shall we return;
 <lb/>كَذَّبُوا بِآيَاتِنَا وَكَانُوا عَنْهَا غَافِلِينَ they denied Our signs, and were.
-<lb/>negl&dotectors of them; ظَنُّوا أَنَّهُ وَاقِع عَلَيْهِمْ they thought it to be
+<lb/>negl˙ectors of them; ظَنُّوا أَنَّهُ وَاقِع عَلَيْهِمْ they thought it to be
 <lb/>falling upon them; أُلائكَ أَصْحَابُ النَّار خَالدين فيهَا these are the
 <lb/>people of Hell-fire, abiding therein.
-<pb n="151" TEIform="pb"/>
+<pb n="151"/>
 <lb/>431. What has been said in § 429 concerning لِ after an
 <lb/>infinitive, applies equally to a nomen agentis.
 <lb/>Rem. When by rhetorical transposition a finite verb, which is
@@ -3644,7 +3613,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>المطلق (see §426). Thus مهلاً gently! for أَمْهِلْ مَهْلاً deal gently,
 <lb/>سَمْعًا وَطَاعةً hearing and obeying for أَسْمَعُ سَمْعًا وَأُطِيعُ طَاعَةً I
 <lb/>hear well and implicitly obey.
-<pb n="152" TEIform="pb"/>
+<pb n="152"/>
 <lb/>NOTE. The Arabian grammarians represent that سُبْحَانَكَ
 <lb/>stands for أُسَبِّحُ سُبْحَانَكَ I praise Thine absolute perfection (see § 41, rem. c.).
 <lb/>(b) In other cases the verb must be conjectured, as أَهْلاً وَسَهْلاً
@@ -3668,7 +3637,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>and under such circumstances لَ (see § 361 c) may be prefixed to
 <lb/>the predicate; thus إِنَّا لَنَرَاكَ فِي ضَلاَلٍ verily we perceive thee
 <lb/>(to be) in error; إِنَّ ربك لسريع العقابِ وَإِنَّهُ لَغَفُور رَحِيم surely
-<pb n="153" TEIform="pb"/>
+<pb n="153"/>
 <lb/>thy Lord is prompt with chastisement and certainly He is forgiving
 <lb/>and merciful. They may however be a separation,
 <lb/>between إَنَّ etc. and the subject, caused by an adverb of time
@@ -3694,7 +3663,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>REM. d. In § 353 * we have mentioned مَا الْكَافَّةُ the hindering
 <lb/>mâ, which when appended to كَأنَّ أَنَّ إِنَّ and لَكِنَّ is followed
 <lb/>by a nominative; thus إِنَّمَا أَوْلاَدُكُمْ فِتْنَة your children are only
-<pb n="154" TEIform="pb"/>
+<pb n="154"/>
 <lb/>a temptation, واعلموا انما اموالكم فتنة know that your riches are
 <lb/>a temptation. The same influence is exercised by ضَمِيرُ الشَّأنِ
 <lb/>(see § 362 m and § 367 g) as إِنَّهُ كِرَام قَوْمُكَ truly thy people are generous.
@@ -3708,7 +3677,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>noun without the article.
 <lb/>(i) We use the nominative—in the singular without tanwîn
 <lb/>—when a particular person or thing is addressed by the speaker
-<lb/>directly and without explanatory term; thus يَا مُحَمَّدُ O Mu&hdot;ammad!
+<lb/>directly and without explanatory term; thus يَا مُحَمَّدُ O Mu[hdot]ammad!
 <lb/>يَا رجُلُ O man! or Sir, قَالَ مُوسَى يَا فِرْعَوْنُ Moses
 <lb/>said, O Pharaoh!
 <lb/>(ii) We use the accusative when the person or thing called
@@ -3719,7 +3688,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>as رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْرًا O our Lord, pour upon us patience.
 <lb/>REM. b. In the vocative ي is usually shortened into—
 <lb/>(see § 317, rem. b), thus يَا قَوْمِ O my people! رَبِّ O my Lord!
-<pb n="155" TEIform="pb"/>
+<pb n="155"/>
 <lb/>but this abbreviation is not permitted with derivatives ending
 <lb/>in ي or —from verbs whose final radical is و or ي Beside
 <lb/>ي and —there are other forms possible, as قَالَ ابْنَ أُمَّ he
@@ -3745,7 +3714,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>كَانَ النَّاقِصَةُ the incomplete kâna because to complete the sense
 <lb/>* In logic the copula is a word which unites the subject and predicate of
 <lb/>a proposition; in is known as الرَّابِطَةُ the fastening.
-<pb n="156" TEIform="pb"/>
+<pb n="156"/>
 <lb/>there is required an attribute, which we must put in the accusative.
 <lb/>Thus كَانُوا قَوْمًا مْجْرِمِينَ they were guilty people, اِتَّخّذُوهُ
 <lb/>وَكَانُوا ظَالِمِينَ they took it (the calf for their god) and were wrong
@@ -3771,7 +3740,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>and not a few others, most of which may be تَامَّة while لَيْسَ not
 <lb/>to be, which is always نَاقِصَة expresses the negation of existence;
 <lb/>thus لَيْسَ بِي ضَلاَلَة in me is no error.
-<pb n="157" TEIform="pb"/>
+<pb n="157"/>
 <lb/>REM. g. Instead of an accusative or a preposition with its
 <lb/>dependent أَخَوَاتُ كَانَ may take as attribute a verb in the
 <lb/>imperfect, thus following the analogy of كَانَ (see § 408 d and e,
@@ -3797,10 +3766,10 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>(b) Locality, direction, and extension, may in certain cases
 <lb/>take the accusative; as نَظَرَ يَمِينًا وَيَسَارًا he looked right and left.
 <lb/>Of this sort are the words given as preposition in § 359.
-<pb n="158" TEIform="pb"/>
+<pb n="158"/>
 <lb/>REM. a. We must use فِي in when the place is definitely
 <lb/>specified, as أَقَمْتُ فِي مَقْتَل الْحُسَيْنِ I stopped at the place
-<lb/>where al &Hdot;uain was killed. But with a verb meaning to remain
+<lb/>where al [Hdot]uain was killed. But with a verb meaning to remain
 <lb/>or the like مَكان and similar vague nouns of place, are employed
 <lb/>without preposition and therefore in the accusative; thus
 <lb/>إِنِ اسْتَقَرَّ مَكَانَهُ if it stand firm in its place.
@@ -3820,13 +3789,13 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>of His mercy lit. between the two hands of His mercy i.e. in
 <lb/>advance of rain; أُلْقِيَ السَّحَرَةُ سَاجِدِينَ the magicians were
 <lb/>thrown down prostrate (adoring).
-<lb/>REM. a. The &hdot;âl is فَضْلَة a redundancy; thus اُدْعُوا رَبَّكُمْ
+<lb/>REM. a. The [hdot]âl is فَضْلَة a redundancy; thus اُدْعُوا رَبَّكُمْ
 <lb/>تَضَرُّعًا وَخُفْيَة call upon your Lord humbly and in secret. Here
 <lb/>the command to pray is of itself a sentence; and the conditions,
-<pb n="159" TEIform="pb"/>
+<pb n="159"/>
 <lb/>grammatically superfluous, reply to كَيْفَ how? as the accusative
 <lb/>called اَلْحَالُ must always do.
-<lb/>REM. b. The &hdot;âl depends upon a regent (عَامِلُ الْحَالِ) which
+<lb/>REM. b. The [hdot]âl depends upon a regent (عَامِلُ الْحَالِ) which
 <lb/>may be (1) a verb, as خَرَّ مُوسَى صَعِقًا Moses fell down thunderstruck;
 <lb/>or (2) a deverbal adjective; as اني رسول الله اليكم جَميعًا
 <lb/>verily I am God's apostle to you all, where رَسُول is accounted
@@ -3835,7 +3804,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>having verbal force, as أَلاَآئِكَ أَصْحَابُ النَّارِ خَالِدِينَ فِيهَا
 <lb/>these are the people of the fire, dwelling continually therein, where
 <lb/>أُلاَئِكَ is equivalent to صِفَة they are pointed out as.
-<lb/>REM. c. The &hdot;âl is (1) usually تَأْتِيهِمْ حِيتَانُهُمْ an adjective expressing
+<lb/>REM. c. The [hdot]âl is (1) usually تَأْتِيهِمْ حِيتَانُهُمْ an adjective expressing
 <lb/>a transitory state, as تَأْتِيهِم حِيتَانُهُمْtheir fish came to them
 <lb/>manifestly: thought the adjective may express a permanent state,
 <lb/>thus ربنا توفَّنَا مُسْلِمِينَ O our Lord, receive us dying as those who
@@ -3847,13 +3816,13 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>or even (3) a concrete substantive; as فَأَرْسَلْنَا عَلَيْهمُ الطُّوفَانَ
 <lb/>والجراد والقمل والضفادع والدم آياتٍ مُفَصَّلاَتٍ so We sent upon
 <lb/>them the deluge and locusts and lice and frogs and blood (in the
-<lb/>nature of) signs; separated by intervals. Lastly (4) &hdot;âl may be
-<lb/>a proposition, as in § 583. There may be more than one &hdot;âl, with
+<lb/>nature of) signs; separated by intervals. Lastly (4) [hdot]âl may be
+<lb/>a proposition, as in § 583. There may be more than one [hdot]âl, with
 <lb/>or without and between them, as can be seen above.
-<pb n="160" TEIform="pb"/>
-<lb/>REM.e. In all our examples &hdot;âl is نَكِرَة indefinite; and this is
+<pb n="160"/>
+<lb/>REM.e. In all our examples [hdot]âl is نَكِرَة indefinite; and this is
 <lb/>most usual.
-<lb/>REM.f. We call the subject or object to which a &hdot;âl refers
+<lb/>REM.f. We call the subject or object to which a [hdot]âl refers
 <lb/>صَاحِبُ الْحَالِ or ذُو الْحَالِ and it is usually مَعْرِفَة definite as
 <lb/>happens in all our examples.
 <lb/>NOTE. Occasionally صَاحِبُ الْحَالِ is eliminated, as اَلَّذِي
@@ -3861,7 +3830,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>herbage does not come forth except scantily, where نَبَاتُهُ must be
 <lb/>supplied as çâhib to نَكِدًا
 <lb/>REM. g. Also it will be observed that in all our examples the
-<lb/>&hdot;âl is placed after its regent: as a rule it occupies this position.
+<lb/>[hdot]âl is placed after its regent: as a rule it occupies this position.
 <lb/>(d) The accusative may express an agent's motive and object
 <lb/>in the act, its cause and reason; as اُدْعُوهُ خَوْفًا وَطَمَعًا call ye
 <lb/>upon Him out of fear and eager desire. Definition by the article
@@ -3876,7 +3845,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>thus طَابَ دَآءُودُ نَفْسًا David is cheerful in spirit.
 <lb/>REM.a. Like الْحَالُ this accusative is فَضْلَة see (c) rem. a.
 <lb/>It must be an indefinite substantive.
-<pb n="161" TEIform="pb"/>
+<pb n="161"/>
 <lb/>A GRAMMAR.
 <lb/>REM. b. We have mentioned in §§ 322 and 323 the accusative
 <lb/>which follows cardinal numbers from 11 to 99 inclusive: it is of
@@ -3901,7 +3870,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>the Hegira i. e. from 622 A.D.
 <lb/>REM. a When used in any of the above significations, we
 <lb/>say that مِنْ is employed للاِبْتِدَآءِ to denote the beginning.
-<pb n="162" TEIform="pb"/>
+<pb n="162"/>
 <lb/>ELEMENTARY ARABIC:
 <lb/>(c) The causal point of departure, the origin and source
 <lb/>of a thing; as أَعلَمُهُ مِنَ اللهِ I know it from God, جَآءَكُمْ ذِكْر
@@ -3927,7 +3896,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>ye shall be of those who are brought near (me), اَلْملأُ مِنْ قَومِ فِرعَونَ
 <lb/>the chiefs of Pharaoh's people, اُسْكُنُوا هذِهِ القريةَ وَكُلُوا مِنْها
 <lb/>inhabit this village and eat therefrom, السُفَهاَءُ مِنَّا the fools among us.
-<pb n="163" TEIform="pb"/>
+<pb n="163"/>
 <lb/>REM. a. Preceding a definite noun, which is usually plural,
 <lb/>مِن may indicate an indefinite quantity or number; as كُلُوا مِنَ
 <lb/>الطَّيِبَاتِ eat of the good things. Together with an indefinite
@@ -3954,7 +3923,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>diminution of fruit.
 <lb/>NOTE. There is yet another use of فانتقَمْنَا منْهُمْ منْ in so
 <lb/>We took vengeance on them.
-<pb n="164" TEIform="pb"/>
+<pb n="164"/>
 <lb/>449. By help of عَنْ we designate distance from, motion
 <lb/>away from, and the like: hence it is used
 <lb/>(a) after verbs which denote setting free, forbidding, etc. as
@@ -3980,7 +3949,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>Hence, because inclination is implied, إِلَى follows verbs of
 <lb/>excusing and repenting; thus تُبْتُ إِلَيْكَ I repent toward Thee,
 <lb/>مَعْذِرَة إِلَى رَبِّكُمْ it is an excuse to your Lord.
-<pb n="165" TEIform="pb"/>
+<pb n="165"/>
 <lb/>(b) In respect of time إِلَى usually indicates during a continuance;
 <lb/>as إِلَى أَجَلٍ until a fixed term, إِلَى يَوْمِ الْقِيَامَةِ during
 <lb/>all the time till the day of judgement.
@@ -4007,7 +3976,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>sin) to us and have mercy upon us: so with reflexive verbs, which
 <lb/>govern self as their direct object; thus لَمَّا تَجَلَّى رَبهُ لِلْجَبلِ
 <lb/>when his Lord manifested Himself to the mountain, and we find
-<pb n="166" TEIform="pb"/>
+<pb n="166"/>
 <lb/>the sense of تجلّى in هِيَ بَيضاءُ لِلنَّاظِرِينَ lo, it is white to
 <lb/>the beholders; also by taking praise as the direct object, we may
 <lb/>place here يُسَبِّحُ لِلَّهِ مَا فِي السَّمَواتِ whatsoever is in heaven gives
@@ -4032,7 +4001,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>act; thus لِمَ for what reason! (see § 351, rem.), وَإِذْ قَالَتْ أُمَّة
 <lb/>مِنْهُمْ لِمَ تَعِظُونَ الْقَوْمَ and when a section of them asked, Why do
 <lb/>ye warn the people! كِتَاب لِلطُّلاَّبِ a book for the use of students,
-<pb n="167" TEIform="pb"/>
+<pb n="167"/>
 <lb/>نُصَرِّفُ الْآيَاتِ لِقَوْمٍ We diversify the signs for the use of a people,
 <lb/>اُذْكُرْ يَوْمَ يَجْمَعُكُمْ لِيَوْمِ الْجَمْعِ make mention of the day whereon
 <lb/>He shall gather you for the sake of (what is in) the day of
@@ -4041,7 +4010,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>(e) Also لِ marks the time of an occurrence; as وَلَمَّا جَآءَ
 <lb/>مُوسَى لِمِيقَاتِنَا and when Moses had come to Our appointed time,
 <lb/>لأول ليلة من مُحَرَّم on Moslem new year's day lit. at a point
-<lb/>of time when a night has passed from Mu&hdotarram †.
+<lb/>of time when a night has passed from Mu[hdot]arram †.
 <lb/>NOTE. Many verbs indicating a state of mind, friendly or
 <lb/>hostile, advantageous or disadvantageous, take لِ of the person
 <lb/>towards whom the feeling is directed; thus عَدِيتُ لَهُ I hate him.
@@ -4057,7 +4026,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>* This rendering is in accordance with Baidâwî.
 <lb/>† Further explanation of dates will be found in Wright's Grammar, vol.
 <lb/>II. §§ 110 and 111.
-<pb n="168" TEIform="pb"/>
+<pb n="168"/>
 <lb/>their hands i. e. when they grievously repented, اذْكُرْ مَا فِيهِ
 <lb/>remember what is in it, فِي السبت on the sabbath day, ارْسِلْ فِي
 <lb/>الْمَدَآئِنِ حَاشِرِينَ send gatherers into the cities. This meaning
@@ -4082,7 +4051,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>it with force, يَطَّيَّرُوا بِمُوسَى they associate bad luck with Moses,
 <lb/>لَيْسَ بِي ضَلاَلَة there is in me no error, خَلَقَ السَّمَوَاتِ والأَرْضَ
 <lb/>بِالْحَقِّ He created the heavens and the earth rightly. Accordingly
-<pb n="169" TEIform="pb"/>
+<pb n="169"/>
 <lb/>verbs with certain meanings govern بِ and its dependent in place
 <lb/>of an accusative; thus بَصُرْتُ بِمَا لَمْ يَبْصُرُوا بَهِ I saw that which
 <lb/>they saw not, لا يُحِيطُونَ بِشَيءٍ مِنْ عِلْمِهِ they do not comprehend
@@ -4107,7 +4076,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>he commands the approved to them; آمَنَّا we have believed, but
 <lb/>آمَنا بِرَبِّ الْعَالَمِينَ we have believed the Lord of the worlds: we
 <lb/>notice this particularly after those indicating motion, which must
-<pb n="170" TEIform="pb"/>
+<pb n="170"/>
 <lb/>then be translated by transitive verbs (see § 423, rem. b); thus
 <lb/>ذلك بأنهُ كَانتْ تَأْتِيهِمْ رُسُلُهُمْ بِالْبَيِّنَاتِ this was because their
 <lb/>apostles used to bring them proofs, جَاوَزْنَا بِبَنِي إِسْرَآئِيلَ الْبَحْرَ
@@ -4133,7 +4102,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>earth without justice.
 <lb/>REM. d. Some would place in this sub-section بِسْمِ اللهِ by
 <lb/>the name of God while others supply أَبْتَدِئُ as above.
-<pb n="171" TEIform="pb"/>
+<pb n="171"/>
 <lb/>REM. e. Arabian grammarians have divers expressions to
 <lb/>denote the uses of بِ
 <lb/>NOTE. We find بِ used in the sense of عَلَى thus ظَنُّوا أَنَّهُ
@@ -4156,7 +4125,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>and the opposite; thus يُحَرِّمُ عَلَيْهِمُ الْخَبَآئِثَ he makes unlawful
 <lb/>to them the foul things, ذلِكَ عَلىَ اللهِ يَسِير this for God is easy.
 <lb/>(c) To express an obligation, thus عَلَى رَسُولِنَا الْبَلاَغُ الْمُبِينُ
-<pb n="172" TEIform="pb"/>
+<pb n="172"/>
 <lb/>distinct delivery is incumbent upon Our apostle, أَلَمْ يُؤْخَذْ عَلَيْهِم
 <lb/>مِيثاقُ الْكِتَابِ is not the covenant of the book taken upon them,
 <lb/>حَقِيق عَلَيَّ it is binding upon me.
@@ -4180,7 +4149,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>like is a substantive and synonymous with مِثل likeness (see
 <lb/>§ 482 f). We find it in كَذلِكَ كَذَا in like manner, so, and
 <lb/>كَأَنَّ as though.
-<pb n="173" TEIform="pb"/>
+<pb n="173"/>
 <lb/>NOTE. Attached to مَا الْكَافَّةُ the hindering mâ
 <lb/>(see § 353*), thus اِجْعَلْ لَنَا إِلهًا كَمَا لَهُمْ آلِهَة make for us a
 <lb/>god like their gods.
@@ -4204,7 +4173,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>and He is all-powerful over His servants.
 <lb/>469. Signifying below دُونَ often indicates something inferior, and
 <lb/>(e) that a quality belonging to one is not possessed by
-<pb n="174" TEIform="pb"/>
+<pb n="174"/>
 <lb/>another; thus منهم الصالحُونَ ومنهم دونَ ذلَكَ the good are
 <lb/>among them and those who are not that are among them.
 <lb/>REM. Beside دُونَ تَحْتَ بَيْنَ عِند there are other
@@ -4229,7 +4198,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>السَّيِئَاتِ ثُمَّ تَابُوا مِنْ بَعْدِهَا those who do evil things (and) then
 <lb/>after that repent.
 <lb/>REM. c The construction may sometimes be made more
-<pb n="175" TEIform="pb"/>
+<pb n="175"/>
 <lb/>concise by omission of a preposition; thus واختار موسى قَوْمَهُ
 <lb/>سَبْعِينَ رَجُلاً لِمِيقَاتِنَا instead of مِنْ قَوْمِهِ and Moses chose from
 <lb/>his people seventy men for Our appointed time.
@@ -4256,7 +4225,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>* By a word's rection, we mean its influence in regard to construction,
 <lb/>requiring that another word be in a particular case: the corresponding termination
 <lb/>is عَمَل action of government.
-<pb n="176" TEIform="pb"/>
+<pb n="176"/>
 <lb/>sons and we will save alive their daughters (lit. women) and verily
 <lb/>we shall be subduers over them, where 	 gives future sense to
 <lb/>all three clauses.
@@ -4279,9 +4248,9 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>§ 444 c) a concrete verbal noun refers to the same period of time
 <lb/>as the verb itself; thus اُدْخُلُوا الْبَابَ سُجَّدًا enter the gate prostrating
 <lb/>yourselves; يُدْخِلْهُمْ جَنّاتٍ خالدين فيِهَا He shall make
-<lb/>them enter gardens to abide therein, an instance of حَال مُقَدَّر &hdot;âl
+<lb/>them enter gardens to abide therein, an instance of حَال مُقَدَّر [hdot]âl
 <lb/>indicating the future.
-<pb n="177" TEIform="pb"/>
+<pb n="177"/>
 <lb/>475. A noun, when governing another noun in the dependent
 <lb/>case, is called by the Arabians مُضَاف annexed, and is said by
 <lb/>European grammarians to be in construct state. It is shortened
@@ -4306,7 +4275,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>may be nomen substantvum*, a pronoun or other word
 <lb/>* We use nomen substantvum here as is § 190, to include primitive
 <lb/>nouns, infinitives, and simple substantives.
-<pb n="178" TEIform="pb"/>
+<pb n="178"/>
 <lb/>regarded as a substantive, or an entire clause (see § 488). Thus
 <lb/>سُورَةُ التَّغَابُنِ the chapter of the overreaching, مُوسَى وَقَوْمُهُ Moses
 <lb/>and his people والَّذِينَ كَذَّبَُوا بِآيَاتِنَا وَلِقَاءِ الْآخِرَة حَبِطَتْ أَعْمَالُهُمْ
@@ -4334,7 +4303,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>mention of the day whereon He shall gather you for the day of
 <lb/>* We use nomen substantivum here as in § 190, to include primitive
 <lb/>nouns, infinitives, and simple substantives.
-<pb n="179" TEIform="pb"/>
+<pb n="179"/>
 <lb/>assembly, this will be the day of general deception: here we must
 <lb/>prefix اُذْكُرْ
 <lb/>480. Instead of having an adjectives attached to it, a noun
@@ -4359,7 +4328,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>but not إِلَيْكُمْ كُلاًّ.
 <lb/>(d) غَيْر something different may usually be translated other
 <lb/>than: thus أعْبُدُوا اللهَ مَا لَكُمْ مِنْ إِلهٍ غَيرُهُ worship God, ye
-<pb n="180" TEIform="pb"/>
+<pb n="180"/>
 <lb/>have no god other than Him; أغير الله أَبْغِيكُمْ إِلهًا shall I seek
 <lb/>for you a god other than God? بَدَّلَ الَّذِينَ ظَلَمُوا مِنْهُمْ قَوْلاً غَيْرَ
 <lb/>الذي قِيلَ لهُمْ the wrongdoers among them substituted a word,
@@ -4384,7 +4353,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>§ 478 b) أَفْعَلُ and فَعْل need not vary in gender or number
 <lb/>(see § 493, rem. a), thus أَكْبَرُ المَدَآئِنِ the greatest of the cities,
 <lb/>أَحْسَنُهَا the best thing that is in it.
-<pb n="181" TEIform="pb"/>
+<pb n="181"/>
 <lb/>REM. a. Being superlative أَوَّلُ first stands in annexation of
 <lb/>the same sort, thus أنا اولُ المُؤْمنين I am the first of the
 <lb/>believers. The other ordinal number ought not so to be used,
@@ -4410,7 +4379,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>a noun in construct state and its following dependent, consequently
 <lb/>an adjectives qualifying the first member must be placed
 <lb/>* This sort of annexation is treated in Wright's Grammar, vol. II. § 30.
-<pb n="182" TEIform="pb"/>
+<pb n="182"/>
 <lb/>after the second; thus الحمدُ للهِ رَبِ الْعَالَمِينَ الرَّحْمِنِ الرَّحِيمِ
 <lb/>praise belongs to God, the Lord of the worlds, the compassionate
 <lb/>and merciful.
@@ -4436,7 +4405,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>adjectives and conform in number and gender to the object or
 <lb/>objects mentioned; thus هي كُبرى المدائن it is the largest of
 <lb/>the cities, هنَّ كُبْرَيَاتُ الْمَدَائِنِ they are the largest of the cities.
-<pb n="183" TEIform="pb"/>
+<pb n="183"/>
 <lb/>494. Attention has been drawn in § 480 to a way of specifying
 <lb/>the material from which any thing is made: this also may be done
 <lb/>by putting the material in apposition to the object, both being
@@ -4460,7 +4429,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>common use, there must perforce be employed جَمْعُ الْكَثْرَةِ the
 <lb/>plural of abundance.
 <lb/>REM. c. We must remember that a sound plural is plural of
-<pb n="184" TEIform="pb"/>
+<pb n="184"/>
 <lb/>paucity, thus أَيُهَا سَبْعُ آياتٍ its verses are seven in number;
 <lb/>آي is a generic noun which forms a nomen unitatis, being also
 <lb/>a plural of abundance, see § 304, No. 28 and § 306, rem. a). If
@@ -4484,7 +4453,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>(a) The numeral agrees in gender with the singular of the
 <lb/>substantive denoting the objects numbered, even if the plural
 <lb/>is of different gender; as خَمسُ سِنين five years (the singular
-<pb n="185" TEIform="pb"/>
+<pb n="185"/>
 <lb/>سَنَة being feminine), تِسْعَةُ رَمَضَانَاتٍ nine Ramadans (the singular
 <lb/>رَمَضَان being masculine), ثَمَانيةَ عشرَ رَجُلاً eighteen men.
 <lb/>(b) When the objects numbered are designated by a noun of
@@ -4508,7 +4477,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>يُحْيِي وَيُمِيتُ He giveth life and causeth to die; or a conjunctive
 <lb/>*Tables of these pronouns, prefixed and suffixed, are given in Wright's
 <lb/>Grammar, vol. I. § 89.
-<pb n="186" TEIform="pb"/>
+<pb n="186"/>
 <lb/>clause (see § 572), as يُسَبِحُ للهِ مَا فِي السَّمواتِ وَمَا فِي الأَرْض
 <lb/>there praises God whatsoever is in heaven and in earth, زَعَمَ
 <lb/>الَّذينَ كَفَرُوا the unbelievers have asserted; or a preposition with
@@ -4534,7 +4503,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>aside. The subject of a nominal sentence is termed المبتدَأُ the
 <lb/>inchoative (except when put in the accusative by a preceding إِنَّ
 <lb/>for it is then known as اسمُ إِنَّ see § 525 rem.) and its predicate
-<pb n="187" TEIform="pb"/>
+<pb n="187"/>
 <lb/>الخَبَرُ the enunciative; while the subject of a verbal sentence is
 <lb/>called الفَاعِلُ the agent, and its predicate الفعلُ the action or verb.
 <lb/>REM. b. Here Professor de Goeje adds the following:—
@@ -4562,7 +4531,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>516. If the predicate be an adverb or a preposition with its
 <lb/>dependent, and the subject an indefinite substantive or a clause
 <lb/>(see § 514) containing a finite verb governed by أَنْ then the
-<pb n="188" TEIform="pb"/>
+<pb n="188"/>
 <lb/>predicate must precede, thus أخذ الألْوَاحَ وَفِي نُسْخَتِهَا هُدًى
 <lb/>وَرَحْمَة he took the tables and in their inscription were guidance
 <lb/>and mercy, لهُ خُوَار it lows lit. a lowing is to it: but either order
@@ -4587,7 +4556,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>him, يَخْرُجُ نَبَات plants spring up: this it is held to do where a
 <lb/>verb represents both subject and predicate; thus أَلْقَى الأْلْوَاحَ
 <lb/>he threw down the tables.
-<pb n="189" TEIform="pb"/>
+<pb n="189"/>
 <lb/>519. In addition to simple sentences, nominal and verbal, we
 <lb/>find compound, each consisting of an inchoative with a clause as
 <lb/>enunciative. In one sort of compound nominal sentence, a noun
@@ -4612,7 +4581,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>herbage comes forth, عذابي أُصِيبُ بِهِ مَنْ أَشَآءُ (as to) My punishment
 <lb/>I strike with it whom I will.
 <lb/>521. We may regard as verbal a sentence consisting of a
-<pb n="190" TEIform="pb"/>
+<pb n="190"/>
 <lb/>deverbal adjective and following noun, thus كريم قومكِ thy
 <lb/>people are generous (see § 552 b ii).
 <lb/>522. There does not exist in Arabic a substantive verb,
@@ -4637,7 +4606,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>sure of their relative position being recognized, by inserting
 <lb/>between them ضمير الفصل the pronoun of separation; thus
 <lb/>أُلائِكَ هُمُ الْمُفلِحُونَ those are the prosperous.
-<pb n="191" TEIform="pb"/>
+<pb n="191"/>
 <lb/>525. If the predicate be a nominative and the subject placed
 <lb/>in the accusative after إِنَّ or the like, a pronoun of separation is
 <lb/>unnecessary; thus إِنَّ رَبَّكُمُ الله verily your Lord is God: there
@@ -4659,12 +4628,12 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>a defined noun (see § 475 et seq.): there are other cases where
 <lb/>the subject of a nominal clause can be indefinite, among which
 <lb/>are the following:—
-<lb/>(a) In a clause called at § 515 &zdot;arfîyaħ (i) when the predicate
+<lb/>(a) In a clause called at § 515 żarfîyaħ (i) when the predicate
 <lb/>stands first, as مِنَ القَومِ أُمَة there is a section of the people;
 <lb/>and (ii) when the subject is preceded by an interrogative or
 <lb/>negative particle, as هَلْ مَآء في البِئرِ is there water in the cistern?
 <lb/>ما شِرب لَنَا we have no drink.
-<pb n="192" TEIform="pb"/>
+<pb n="192"/>
 <lb/>(e) When the sentence expresses a wish, as سَلاَم علَيْكُم
 <lb/>peace be unto you; see § 516.
 <lb/>.(f) Words containing the conditional meaning of إِنْ (see
@@ -4689,7 +4658,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>has its usual meaning: but a perfect, beside examples like those
 <lb/>in § 441, may express the present, as يَضَعُ عَنْهُمْ إِصْرَهمْ وَالأَغْلاَلَ
 <lb/>الَّتِ] كَانَتْ عَلَيْهِم he puts away from them their burden and the
-<pb n="193" TEIform="pb"/>
+<pb n="193"/>
 <lb/>fetters which are upon them; especially is this the case after an
 <lb/>interrogative, or مَا not as مَا كُنْت لِأَحْكُمَ بَيْنَكُمْ حَتَى الخ I am
 <lb/>not ready to judge between you until etc. (see § 557).
@@ -4717,7 +4686,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>534. To the subject and predicate complements are joined by
 <lb/>subordination (the accusative or a preposition with its dependent),
 <lb/>or by coordination which is more usually called apposition.
-<pb n="194" TEIform="pb"/>
+<pb n="194"/>
 <lb/>535. Pronominal suffixes may have a reflexive meaning when
 <lb/>attached to a verb's object, but not when attached to the verb
 <lb/>itself; consequently for this purpose we must employ نَفْس soul
@@ -4739,12 +4708,12 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>with it, thus بسم اللهِ الرَّحْمِنِ الرَّحِيم in the name of
 <lb/>God the merciful (and) compassionate: sometimes a nomen verbi
 <lb/>(nomen actionis or other) takes the place of an adjective, thus
-<lb/>حَال نَكِرَة an indefinite &hdot;âl, اِسْم مَعْرِفَة a defined noun. In the
+<lb/>حَال نَكِرَة an indefinite [hdot]âl, اِسْم مَعْرِفَة a defined noun. In the
 <lb/>above examples all words are singular, and concords in case of
 <lb/>th dual are equally simple: but with plurals the matter becomes
 <lb/>difficult, though the rule as to definition is happily unalterable.
 <lb/>A substantive (i) in masculine sound plural representing rational
-<pb n="195" TEIform="pb"/>
+<pb n="195"/>
 <lb/>creatures must be followed by an adjective in the plural, thus
 <lb/>بَنُونَ ضَالُونَ erring sons, مُؤْمِنونَ كِرَام (see § 304, No. 5) noble
 <lb/>believers, كَافِرُونَ مَلاعِينُ (see § 305, No. 2) accursed unbelievers;
@@ -4769,8 +4738,8 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>take an adjective in that sound plural which corresponds by
 <lb/>natural gender with the beings, thus الْقَوْمُ الظَّالِمُونَ the wrongdoers,
 <lb/>إِنَّهُمْ كَانُوا قَوْمًا عَمِينَ truly they were a blind people,
-<lb/>حَرِيمُ مَحْمُودٍ الْكَثِيراتُ Ma&hdot;mûd's numeous family; but the
-<pb n="196" TEIform="pb"/>
+<lb/>حَرِيمُ مَحْمُودٍ الْكَثِيراتُ Ma[hdot]mûd's numeous family; but the
+<pb n="196"/>
 <lb/>adjective may be singular and agree with the collective's grammatical
 <lb/>gender,thus خَلْف حَسَن excellent posterity, أُمَّة فاسِقَة
 <lb/>an impious nation. Collection nouns (vi) which do not form a
@@ -4788,7 +4757,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>the article we usually find the demonstrative preceding, thus
 <lb/>ذلك الفو this prize, هذه القرية this village; but if the substantive
 <lb/>be definite in its nature or defined by a following dependent,
-<lb/>it must precede, as مَحمود هذا this Ma&hdot;mûd.
+<lb/>it must precede, as مَحمود هذا this Ma[hdot]mûd.
 <lb/>NOTE. We find in Corân, Sûraħ 7, verse 166 كونوا قردة
 <lb/>خاسئين become object apes: here the appositive is in masculine
 <lb/>sound plural because human beings are addressed.
@@ -4796,7 +4765,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>substantive or pronoun and agreeing with it in gender, number
 <lb/>and case; thus لأُصَلِّبَنَّكُمْ I will crucify you all.
 <lb/>539. In addition to its use at §535 نَفْس can signify self
-<pb n="197" TEIform="pb"/>
+<pb n="197"/>
 <lb/>without reflexive meaning, thus رَأَيْتُ نفسه I have seen himself:
 <lb/>if a plural be needed, أنفس must be employed.
 <lb/>Rem. a. There is a class of appositives called التوكيد or
@@ -4821,7 +4790,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>brother Aaron, عجل جسد a calf a body, i. e. a calf in bodily shape.
 <lb/>Rem. c. One verb may be substituted for another by بدل
 <lb/>الاِشْتِمَال the comprehensive substitution, i. e. the permutative
-<pb n="198" TEIform="pb"/>
+<pb n="198"/>
 <lb/>explaining something involved in the previous verb; thus
 <lb/>يسومونكم سوء العذاب يُقَتَلُونَ أَبْنَآءَكُمْ ويستَحيون نسآءكم they
 <lb/>lay upon you the evil of punishment, killing your sons and saving
@@ -4848,7 +4817,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>(b) If the subject be a singular substantive, feminine according
 <lb/>to §290 b or §291 the verb may precede in either gender,
 <lb/>though preferably in the feminine if the subject follows immediately,
-<pb n="199" TEIform="pb"/>
+<pb n="199"/>
 <lb/>thus تَمت كلمت ربّكَ the word of thy Lord was fulfilled:
 <lb/>but we find فانظُر كيف كان عاقبة المُفْسِدِين so look how was
 <lb/>the end of the transgressors.
@@ -4873,7 +4842,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>on account of what the fools among us have done; though we
 <lb/>sometimes find the feminine, as كَانَت تَأتِيهم رُسُل apostles used
 <lb/>to come to them.
-<pb n="200" TEIform="pb"/>
+<pb n="200"/>
 <lb/>545. If the subject be a collective or other noun mentioned
 <lb/>in §292 the preceding verb must be singular but may be of
 <lb/>either gender; thus قَالَ الْمَلَأُ the chiefs said, استسقاهُ قومه his
@@ -4901,7 +4870,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>the people of Moses there is a section who direct (others) by the
 <lb/>truth and by means of it do justice, خلف خلف ورثوا الكتاب a
 <lb/>posterity succeeded who inherited the Book: other collectives
-<pb n="201" TEIform="pb"/>
+<pb n="201"/>
 <lb/>treated in § 292 are followed by a singular verb of either gender.
 <lb/>Lastly if the subject be a feminine sound plural the verb would
 <lb/>naturally follow in feminine plural though the feminine singular
@@ -4927,7 +4896,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>and interrogative sentences, (i) they must in a nominal sentence
 <lb/>agree (see c) but (ii) in a verbal sentence (see §251) the predicate
 <lb/>ought to be singular, thus أمين الصَّادِقُون the truthful are trustworthy.
-<pb n="202" TEIform="pb"/>
+<pb n="202"/>
 <lb/>(c) If subject be collective its predicate may follow in the
 <lb/>plural, thus الأَهْلُ جاهلُونَ the people are ignorant. Similarly,
 <lb/>when a verb is placed after a collective subject, thus أَبَشَر ْ يَهدونَنَا
@@ -4953,7 +4922,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>556. The particle لَن (for لا أَن see §362 hh) is a very strong
 <lb/>negation of the future, as can be seen in §§412 and 415 ai.
 <lb/>Rem. For لم and لَمَا see $ 412 and 418.
-<pb n="203" TEIform="pb"/>
+<pb n="203"/>
 <lb/>557. The particle ما not (see §362kk) denies the perfect
 <lb/>when the latter has one of the meanings treated in §401 a to d;
 <lb/>when joined to the imperfect it denies the present, as is noted
@@ -4980,7 +4949,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>had not been merciful to us and pardoned us.
 <lb/>Rem. a. As regards the use of لا instead of repeating غير
 <lb/>see §482 d, rem. a.
-<pb n="204" TEIform="pb"/>
+<pb n="204"/>
 <lb/>563. The prohibitive لا governs the jussive, as may be seen
 <lb/>in §§417 and 420: this happens also with the energetic.
 <lb/>564. All interrogative clauses take the direct form, thus
@@ -5005,7 +4974,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>568. The particle أَلاَ (originally meaning is it not the case
 <lb/>that?) affirms a certainty, thus أَلاَ لهُ الخلق truly to Him
 <lb/>belongs the (whole) creation. It is frequently followed by a
-<pb n="205" TEIform="pb"/>
+<pb n="205"/>
 <lb/>further asseverative, e. g. إِنَّمَا thus أَلاَ إِنَّمَا طَائِرُهُم عِنْدَ اللهِ
 <lb/>verily their luck (or fate) is in the hands of God only.
 <lb/>570. The interrogative pronouns مَن who? and ذَا what? (see
@@ -5031,7 +5000,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>upon a people who clung to their idols: (b) the following clauses
 <lb/>are definite; واسألْهُمْ عِنِ القريةِ الَّتِي كَانَتْ حاضرةَ البَحرِ and
 <lb/>ask them concerning the village which is situated by the sea,
-<pb n="206" TEIform="pb"/>
+<pb n="206"/>
 <lb/>الذين يتقون ويؤتون الزكاة those who take heed to themselves
 <lb/>and give the appointed alms, موسى وَمَنْ مَعَهُ Moses and he who
 <lb/>is (or those who are) with him, ادْعُ لَنَا رَبَّكَ بِمَا عهدَ عِنْدَكَ
@@ -5058,7 +5027,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>whom God is the destroyer, إلى أجل هم بالغوه until a fixed term
 <lb/>which they were about to attain. If however no 'â'id is needed
 <lb/>to make clear the meaning, it may be omitted; thus يوم يجمعكم
-<pb n="207" TEIform="pb"/>
+<pb n="207"/>
 <lb/>(make mention of) the day on which He shall assemble you, whence
 <lb/>فِيهِ is eliminated.
 <lb/>REM. In theory a 'â'id ought to be of the 3rd person, but in
@@ -5085,7 +5054,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>575. The preceding section shows that Arabic conjunctive
 <lb/>pronouns are not used quite like our English relative pronouns;
 <lb/>for the case in which they are put is independent of the conjunctive clause.
-<pb n="208" TEIform="pb"/>
+<pb n="208"/>
 <lb/>If standing first as substantives and forming
 <lb/>the subject of an independent sentence, they are in the nominative;
 <lb/>as is الَّذِي when attached adjectively to a substantive in
@@ -5113,7 +5082,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>expressed by a separate pronoun, as مَا هوَ طَيِب that which is
 <lb/>sweet smelling or whatever is sweet smelling. The separate
 <lb/>pronoun however (iii) is not required in a nominal sentence
-<pb n="209" TEIform="pb"/>
+<pb n="209"/>
 <lb/>when the predicate is an adverb, as ضربت من هنا I struck
 <lb/>the one who is here; or a preposition with its dependent, as
 <lb/>درسوا ما فيه they studied what is in it, فأنْجيناه والذين معه
@@ -5139,7 +5108,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>permissible if the preposition be used in two senses, or if it
 <lb/>follow different verbs, thus فَلَمَّا عَتَوْا عَمَّا نُهُوا عَنْهُ so when they
 <lb/>turned in disdain from that from which they were forbidden.
-<pb n="210" TEIform="pb"/>
+<pb n="210"/>
 <lb/>REM. a. In theory a 'â'id after الذي ought to be of the 3rd
 <lb/>person but it is not so always: compare § 573, rem.
 <lb/>NOTE. In relation to a 'â'id مَهْمَا exactly resembles مَا bus
@@ -5165,7 +5134,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>واتبعوه (because) He gives life and cause to die, therefore believe
 <lb/>God and His apostle, the illiterate prophet, who believes God
 <lb/>and His words; also follow him. When فَ means because it is
-<pb n="211" TEIform="pb"/>
+<pb n="211"/>
 <lb/>usual to employ فَإِنّ thus اهبطُوا مِصْرًا فَإِنَّ لَكُمْ مَا سَألْتُمْ 
 <lb/>go down into Egypt for (there) shall ye find what ye ask. We
 <lb/>have seen in §§ 415 d, 417 c and rem. c, that فَ may be used
@@ -5191,7 +5160,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>all the antecedent negative sentence except that word for which
 <lb/>the noun-that follows لا is substituted; thus لاَ تَأْخُذُهُ سِنَة وَلاَ نَوم
 <lb/>drowsiness doth not seize Him nor sleep: here ولا represents ولا تاخذه.
-<pb n="212" TEIform="pb"/>
+<pb n="212"/>
 <lb/>582. The copulative particles are sometimes used in Arabic
 <lb/>in place of an English disjunctive or adversative; thus قَالُوا
 <lb/>نُؤْمِنُ بِمَا أنزلَ علينا ويكفرون بِما وَراءه وهو الحق they say,
@@ -5213,11 +5182,11 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>its verb being in imperfect indicative preceded by وَقَد Without
 <lb/>قد we must not employ حال مقدر and by omission of both we obtain
 <lb/>sentences like the examples in § 408 d where the second clause
-<lb/>is حال مقدر &hdotâl indicating the future; or like those in § 408 e
+<lb/>is حال مقدر [hdot]âl indicating the future; or like those in § 408 e
 <lb/>whose second clause is حال مُقارن a contemporaneous stạte.
 <lb/>(c) The circumstantial clause may be verbal and negative, its
 <lb/>verb being in imperfect indicative preceded by وَمَا or in the
-<pb n="213" TEIform="pb"/>
+<pb n="213"/>
 <lb/>jussive preceded by وَلَم thus خَلَقْتُكَ
 <lb/>I created thee beforehand when thou wast nothing. If لا be used,
 <lb/>وَ is nearly always omitted, and not seldom in other cases.
@@ -5243,7 +5212,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>Spiro, Paris (Ernest Leroux) 1892; copies of which (second) edition I have
 <lb/>placed in the Bodleian, Cambridge University Library, and the British
 <lb/>Museum. See also the opening words of Corân ii. 270.
-<pb n="214" TEIform="pb"/>
+<pb n="214"/>
 <lb/>negative statement: لَن تراني ولكن انظر الى الجبل thou shalt
 <lb/>not see Me, but look toward the mountain; ليس بي ضلالة ولكِنِّي
 <lb/>رَسُول there is in me no error, but I am an apostle.
@@ -5269,7 +5238,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>الملائِكةُ إِلا إِبْلِيسَ the angels prostrated themselves except Eblis.
 <lb/>(ii) After a negative proposition containing the general term,
 <lb/>a thing excepted is best placed in same case with the general
-<pb n="215" TEIform="pb"/>
+<pb n="215"/>
 <lb/>term; thus إِنْ هِيَ إِلاَّ فِتْنَتُكَ this is nothing but Thy
 <lb/>temptation, لا إِله إلا اللهُ there is no god but God (where إِلهَ is
 <lb/>virtually nominative though grammatically accusative, see § 439).*
@@ -5287,7 +5256,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>concerning God except the truth.
 <lb/>NOTE. Beside nouns, other expressions may follow the exceptive
 <lb/>particle such as (i) an adverb, (ii) prepositional phrase,
-<lb/>(iii) &hdot;âl, or (iv) clause known as maçdarîyaħ. Thus (i) مَا شَجَرَة
+<lb/>(iii) [hdot]âl, or (iv) clause known as maçdarîyaħ. Thus (i) مَا شَجَرَة
 <lb/>في الجَنَّةِ إِلاَّ هُنَا there is no tree in the garden except here;
 <lb/>(ii) إِلاَّ بِإِذْنِ اللهِ except by God's permission; (iii) إِلاَّ نَكَدًا
 <lb/>except scantily, see §444 c, rem f, Note; and (iv) إِلاَّ أنْ الخ
@@ -5295,7 +5264,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>* In these two examples the words following the particle of exception
 <lb/>stand in the category of بَدَلُ البعضِ مِنَ الكُلِّ see Wright's Grammar, ii.
 <lb/>§ 139, rem.b 2 b.
-<pb n="216" TEIform="pb"/>
+<pb n="216"/>
 <lb/>587
 <lb/>We have treated conditional and conditional and hypothetical sentences
 <lb/>in §§ 404 to 406, § 413 and § 417: it must now be explained that
@@ -5323,20 +5292,20 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>to the apodosis of a hypothetical sentence, thus لَوْ شَآءَ رَبُّك
 <lb/>لَجَعلَ الناسَ أُمَةً وَاحِدَة if thy Lord had willed, He would have
 <lb/>made (all) mankind one people.
-<pb n="217" TEIform="pb"/>
+<pb n="217"/>
 <lb/>591
 <lb/>Arabic poetry during the so-called classical period,
 <lb/>from about 500 to 750 A.D., always takes the form of short
 <lb/>poems, which rarely exceed the length of a hundred and twenty
-<lb/>verses. Such poems are named &kdot;a&sdo;tîaħs (قَصِيدَة plur. قَصَائِدُ);
+<lb/>verses. Such poems are named [kdot  ]a[sdot	]tîaħs (قَصِيدَة plur. قَصَائِدُ);
 <lb/>whereas a mere fragment, consisting of only a few verses, is
-<lb/>termed a &kdot;i&#x020DB;aħ (قِطْعَة plur. قِطَع also مُقَطَّعَات).
+<lb/>termed a [kdot  ]i⃛aħ (قِطْعَة plur. قِطَع also مُقَطَّعَات).
 <lb/>REM. Rhyme without metre or measure does not constitute poetry.
 <lb/>592. Each verse or bayt (بَيْت plur. أَبْيَات) consist or two hemistichs.
 <lb/>593. Rhyme (قَافِيَة) is of two kinds. When the verse ends
 <lb/>with a consonant, the rhyme is called fettered (مُقَيَّدَة); when
 <lb/>it ends with a vowel, loose (مُطْلَقَة).According to ancient rule,
-<lb/>the two hemistichs of the first verse of a &kdot;a&sdot;îdaħ must rhyme
+<lb/>the two hemistichs of the first verse of a [kdot  ]a[sdot	]îdaħ must rhyme
 <lb/>with one another, and the same rhyme must be repeated at the
 <lb/>end of every verse throughout the whole poem.
 <lb/>594. The essential part of the rhyme is the letter called
@@ -5344,10 +5313,10 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>REM. The letters و ا and ي cannot be employed as rawî
 <lb/>when they are long vowels and in some other cases.
 <lb/>595. The loose rhyme (see § 593) terminates in what is
-<lb/>called اَلصِّلَةُ the annex or appendix to the rawî. The &sdot;laħ
+<lb/>called اَلصِّلَةُ the annex or appendix to the rawî. The [sdot	]laħ
 <lb/>may be either one of the long vowels و ي ا or the
 <lb/>letter ه preceded by one of the short vowels ُه ُه ُه
-<pb n="218" TEIform="pb"/>
+<pb n="218"/>
 <lb/>REM. a. The final vowel of a verse is always long, because
 <lb/>it is regarded as being following by the homogeneous letter of
 <lb/>prolongation (see § 6), whether this latter be written or not.
@@ -5374,7 +5343,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>[xxx]
 <lb/>Trimeter acatalecatic
 <lb/>[xxx]
-<pb n="219" TEIform="pb"/>
+<pb n="219"/>
 <lb/>606. The kâmil (اَلْكَامِلُ the perfect) is either dimeter or trimeter.
 <lb/>Trimeter acatalectic
 <lb/>[xxx]
@@ -5391,13 +5360,13 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>Trimeter
 <lb/>[xxx]
 <lb/>609. Of the amphibrachic metres we shall mention the
-<lb/>muta&kdot;ârib ad &#x020DB;awîl.
-<lb/>610. The basis of the muta&kdot;ârib (الْمُتَقَارِبُ the tripping)
+<lb/>muta[kdot  ]ârib ad ⃛awîl.
+<lb/>610. The basis of the muta[kdot  ]ârib (الْمُتَقَارِبُ the tripping)
 <lb/>is [xxx] (amphibrachys), for which may be substituted [xxx]
 <lb/>Tetrameter catalectic
 <lb/>[xxx]
-<pb n="220" TEIform="pb"/>
-<lb/>611. The &tdo;twîl (اَلطَّوِيلُ the long) is one of the finest, as
+<pb n="220"/>
+<lb/>611. The ⃛twîl (اَلطَّوِيلُ the long) is one of the finest, as
 <lb/>well as the most common, of the Arabic metres.
 <lb/>Acatalectic
 <lb/>[xxx]
@@ -5405,19 +5374,19 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>[xxx]
 <lb/>Catalectic
 <lb/>[xxx]
-<lb/>613. Of the anapaestic metres we shall mention the basî&#x020DB;
-<lb/>and munsari&hdot;.
-<lb/>615. The basî&#x020DB; (اَلْبَسِيطُ the outspread) is a favourite metre
+<lb/>613. Of the anapaestic metres we shall mention the basî⃛
+<lb/>and munsari[hdot].
+<lb/>615. The basî⃛ (اَلْبَسِيطُ the outspread) is a favourite metre
 <lb/>with the older poets.
 <lb/>Tetrameter
 <lb/>[xxx]
-<lb/>616. The munsari&hdot; (اَلْمُنْسَرِحُ the flowing) has the same base
-<lb/>as the basî&#x020DB;, but the first [xxx] is reduced to a single long syllable.
+<lb/>616. The munsari[hdot] (اَلْمُنْسَرِحُ the flowing) has the same base
+<lb/>as the basî⃛, but the first [xxx] is reduced to a single long syllable.
 <lb/>Tetrameter
 <lb/>[xxx]
 <lb/>618. Of the ionic metres we shall mention the ramal, madîd, and khafîf.
 <lb/>619. The ramal (اَلرَّمَلُ the running) has for its base [xxx] (ionicus a minore).
-<pb n="221" TEIform="pb"/>
+<pb n="221"/>
 <lb/>Trimeter catalectic
 <lb/>[xxx]
 <lb/>620. The madîd (اَلْمَدِيدُ the extended) may be either
@@ -5438,9 +5407,9 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>the same time; e. g. فَإِنَّ عُقُوقَ الْوَالِدَاتِ كَبِيرُ for verily disobedience
 <lb/>to mothers is (a) great (sin), for خَلِيلُكَ مِنْ مُرَاد كَبِير
 <lb/>thy friend of (the tribe) Murâd, for مُرَادٍ In this case final
-<lb/>fat&hdot;aħ is always accompanied by an 'alif, as وَمَا يُغْنِي التَّمِيمَاتُ
+<lb/>fat[hdot]aħ is always accompanied by an 'alif, as وَمَا يُغْنِي التَّمِيمَاتُ
 <lb/>الْحِمَامَا and amulets do not avail against death, for الْحِمَامَ
-<lb/><pb n="222" TEIform="pb"/>
+<lb/><pb n="222"/>
 <lb/>625. The accusative termination ً ا generally becomes َ ا
 <lb/>thought it occasionally disappears altogether.
 <lb/>626. The feminine terminations َ ةٍ َ ة and َ ةً become
@@ -5455,14 +5424,14 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>personal pronoun, ي and ني have several pausal forms,
 <lb/>namely نيَا نِيَهْ يَا يَهْ
 <lb/>REM. c. In rhyme the long vowels ي and و are often
-<lb/>expressed merely by kasraħ and &ddot;ammaħ.
+<lb/>expressed merely by kasraħ and [ddot]ammaħ.
 <lb/>629. When the penultimate letter of a word bears sukûn,
 <lb/>the vowel of the final letter may be transferred to it in rhyme,
 <lb/>e. g. الصَّدِرْ for الصَّدْرِ
 <lb/>REM. a. This transference (نَقْل) is not allowed when it
 <lb/>would rise to a form which has no example in the language.
 <lb/>630. Indeclinable words ending in a vowel when used as
-<pb n="223" TEIform="pb"/>
+<pb n="223"/>
 <lb/>rhymes take a final ة which is technically called هَاءُ الوَقْف the
 <lb/>hâ of pause or هَاءُ السَّكْتِ the hâ of silence; thus كَيْفَ how
 <lb/>becomes كَيْفَهْ The same letter is added to some verbal
@@ -5473,8 +5442,7 @@ PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guideline
 <lb/>of an elementary work; moreover, the slight changes which
 <lb/>custom permits are seldom of such a nature as the cause any difficulty to the student.
           </p>
-        </div2>
-      </div1>
+      </div>
     </body>
   </text>
-</TEI.2>
+</TEI>
